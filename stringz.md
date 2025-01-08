@@ -1,0 +1,1 @@
+fills the cstring into memory starting at the argument of the [[Assembler Directive]].

@@ -1,0 +1,1 @@
+[[malloc|mallocs]] copy of a string for you, and gives you the resulting pointer.

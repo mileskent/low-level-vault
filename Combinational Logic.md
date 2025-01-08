@@ -1,0 +1,1 @@
+* Combine [[Logic Gates]]; deterministic

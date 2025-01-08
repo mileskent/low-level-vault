@@ -1,0 +1,1 @@
+A word corresponds to [[Addressability]] of the [[ISA]], as opposed to the size of a [[Byte Addressable|byte]]

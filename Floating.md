@@ -1,0 +1,1 @@
+When not connected to [[Source]] or [[Ground]]

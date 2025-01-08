@@ -1,0 +1,1 @@
+It will store whatever value is present on the input when the write enable goes from true to false. However, for half of the [[Clock]] cycle, the output of the latch is unpredictable.

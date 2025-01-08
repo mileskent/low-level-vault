@@ -1,0 +1,1 @@
+Triggered by the leading edge of the [[Clock]] cycle

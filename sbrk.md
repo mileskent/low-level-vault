@@ -1,0 +1,4 @@
+An OS level function that allocates and deallocates memory on the *top* of the heap. 
+* To allocate `type *ptr = sbrk(size)`
+* To deallocate `(void)sbrk(size)`
+Think about [[Stack Frame]] allocation with R6, except its a [[Heap]] pointer instead. sbrk is totally agnostic to intermediate calls, just like when programming in [[LC3]]. If anyone else has used the heap in between your allocation and deallocation, you are going to have a bad time. This is why [[malloc]] and [[free]] exist, because `malloc` keeps track of the data allocated, and free will always free what you want to free regardless of intermediate heap usage.

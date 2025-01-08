@@ -1,0 +1,1 @@
+A [[Pointer]] to a function.

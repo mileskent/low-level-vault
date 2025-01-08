@@ -1,0 +1,1 @@
+Successor to [[ASCII]]. Backwards-compatible with [[ASCII]]. Encodes representations for everything ASCII misses, e.g. Chinese characters.
