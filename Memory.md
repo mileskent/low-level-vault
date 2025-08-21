@@ -1,3 +1,11 @@
+# Modern 
+* Why would we consider loading values into registers before computing with them?  Doesn’t that use more instructions?
+	* Yes it does, but it saves memory accesses because we can re-use the values
+	* [[Memory vs Registers|Accessing memory is slow af compared to registers]]
+* You can usually do stuff while accessing memory
+
+
+# Basic 
 Combination of [[Register]]s, [[Decoder]]s, and [[Multiplexor]]s
 #### $2^2 \times 3$ Word Memory
 ![[Pasted image 20250130220656.png|400]]

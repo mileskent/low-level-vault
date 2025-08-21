@@ -2,8 +2,10 @@
 The ISA is responsible for defining the set of instructions to be supported by the processor. It is the assembly language for that processor. It is a level of abstraction above the [[Microarchitecture]] of the processor.
 * Examples include
 	* [[LC3]]
+	* [[LC 2200]]
 	* [[ARM]]
 	* [[MIPS]]
+	* [[RISC]]
 * [[Memory]] Organization
 * [[Register|Register Set]]
 	* [[Address Space|How many]]?
@@ -12,8 +14,8 @@ The ISA is responsible for defining the set of instructions to be supported by t
 * Instruction Set
 	* Opcodes 
 	* Data Types
-		* [[2's Complement]]
 		* [[IEEE 754]], [[IEEE 754 Double]]
+		* ISA may need special functionality for multiple word data types
 	* [[Addressing Mode]]s
 
 > An ISA describes  the interface to the computer  from the perspective  of the 0s and 1s of  the program.  For example,  it describes the operations,  data types,  and addressing modes a programmer can use on that particular computer. It doesn’t specify the actual physical implementation. The microarchitecture does that. Using the car analogy, the ISA is what the driver sees, and the microarchitecture is what goes on under the hood.
