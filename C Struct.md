@@ -47,10 +47,11 @@ car = {"Ford", 1972};
 ![[Pasted image 20250403162407.png|500]]
 * Rule 1: Members are stored in the same order as they are initialized in source code
 	* Even if it is not optimal, like in this example
-* Rule 2: Datatypes must be aligned on a multiple of their size. 
+* Rule 2: Datatypes must be aligned on a multiple of their size; **Natural Alignment***
 	* Think about how pointer arithmetic works. You want data to be aligned on natural boundaries. If you don't do this you need hardware to handle it.
 	* If the character array came first, we would not waste bytes on filler for maintaining natural alignment
 	* We align it in this way, sacrificing space for time
+		* Otherwise you would have to use multiple loads to get one var, if it was not naturally aligned
 * Rule 3: The struct is filled out to the end to meet the most strict alignment of its members. 
 	* In this case of `int` which is 4 bytes. This is because: imagine what happens if we need to make an array of this struct. 
 	* The size of this struct is 4 x 7

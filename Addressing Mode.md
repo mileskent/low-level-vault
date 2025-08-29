@@ -6,7 +6,7 @@
 * Base + Offset (Offset is [[2's Complement]])
 	* e.g. [[LC3 Instructions#LDR|LDR]]
 	* Access is simpler, like a pointer
-* ... #todo
+* Base + Index
 
 # See also
 [[LC3]], [[LC3 Instructions]]

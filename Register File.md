@@ -1,0 +1,1 @@
+The general purpose registers of a [[CPU]]
