@@ -1,1 +1,6 @@
-{}
+{
+  "enabledCssSnippets": [
+    "obsidian",
+    "center_images"
+  ]
+}

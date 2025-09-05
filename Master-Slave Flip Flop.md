@@ -1,0 +1,2 @@
+A master-slave flip-flop is a type of digital memory circuit that consists of two flip-flops connected in series, where one acts as the master and the other as the slave. This configuration helps to avoid issues like race conditions by ensuring that the slave flip-flop only updates its output based on the master's output when the clock signal transitions, providing stable and reliable data storage.
+This terminology simply refers to the configuration of the latches. 

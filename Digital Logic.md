@@ -1,11 +1,11 @@
 Logic with discrete signals
-See [[Logic Gates]], [[XOR Gate]], [[NAND Gate]],
+See [[Logic Gate]], [[XOR Gate]], [[NAND Gate]],
 	[[NOR Gate]], [[NOT Gate]], [[AND Gate]], [[OR Gate]],
 	[[Transistor]]s, [[Karnaugh Map]]
 
 #### [[Combinational Logic]] or [[Sequential Logic]]
 **Combinational**
-* Combine [[Logic Gates]]; deterministic
+* Combine [[Logic Gate]]; deterministic
 **Sequential**
 * Requires storage, See [[SR Latch]]
 * Output also depends on state

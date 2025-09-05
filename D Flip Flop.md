@@ -1,6 +1,7 @@
-Also called "Leader-Follower Flip Flop"
+This is a [[Master-Slave Flip Flop|Master-Slave]] [[Edge Triggered]] D flip flop.
+
 * Makes it so that one input is not outputted more than once per Clock cycle.
-* [[Leading Edge Triggered]] 
+* [[Edge Triggered]] 
 
 1. On rising edge of [[Clock]] -> [[Leader]] [[Register]] records input 
 2. Top of [[Clock]] -> Leader outputs whatever it recorded, [[Follower]] [[Register]] outputs whatever the Leader outputs

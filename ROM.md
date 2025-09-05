@@ -1,0 +1,2 @@
+ROM stands for Read-only [[Memory]] and as its name suggests it is a piece of memory that can only be read. 
+It is used for storing static information relevant to the operations of the [[CPU]]. For example, [[Microcode]], where a ROM is used as a truth tabel, describing a [[Finite State Machine]].

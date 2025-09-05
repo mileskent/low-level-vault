@@ -4,7 +4,7 @@
 * [GBA Reference](http://www.coranac.com/tonc/text)
 * Simple Hardware
 * Understand performance tradeoffs
-* [[Von Neumann Model]]
+* [[Von Neumann Architecture]]
 	* I/O
 		* DMA
 		* Button Controller

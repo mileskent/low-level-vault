@@ -1,0 +1,1 @@
+Storage refers to a device external to the [[Von Neumann Architecture]] that indefinitely stores data, regardless of power. This includes various types of hardware such as hard disk drives (HDDs), solid-state drives (SSDs), USB flash drives, and optical discs.

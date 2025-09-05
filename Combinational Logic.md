@@ -1,1 +1,1 @@
-* Combine [[Logic Gates]]; deterministic
+A stateless deterministic circuit. As opposed to [[Sequential Logic]]

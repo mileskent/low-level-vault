@@ -1,4 +1,4 @@
-#### Types
+# Types
 * [[NOT Gate]]
 * [[OR Gate]]
 * [[NOR Gate]]
@@ -6,7 +6,7 @@
 * [[AND Gate]]
 * [[XOR Gate]]
 
-#### Diagramming
+# Diagramming
 * They are also called "bubbles"
 * Circle -> Negation
 	* [[NOT Gate]] has a triangle before the circle to indicate that it is a gate
