@@ -5,10 +5,21 @@ We only care about **microprogrammed control units** which are a type of CPU [co
 
 # 3 ROM Control Unit
 3 ROM Control Unit from LC 4200 architecture.
-![[Pasted image 20250901193653.png]]
+![[Pasted image 20250907153336.png]]
 ## Main Rom
 Contains the [[Microcode]]
 ## Sequencer ROM
-Converts [[Opcode]] to address in [[#Main Rom]]
+Maps [[Opcode]] to address in [[#Main Rom]]
+Only is used after fetch3
 ## Conditional ROM
-#todo
+Maps CmpTarget to address in [[#Main Rom]]
+When doing a conditional branch, CC ROM's current selected address or the next state bits will be used.
+The CC ROM contains addresses of the beginning of different microstates needed for branching.
+It would probably look something like this
+
+| CmpTarget (Input) | CC ROM Content (Output Address)     | Corresponding "True" Condition          |
+| ----------------- | ----------------------------------- | --------------------------------------- |
+| 00                | Address of BEQ_Branch_Microstate    | For a BEQ instruction, when SR1 == SR2. |
+| 01                | Address of BGT_Branch_Microstate    | For a BGT instruction, when SR1 > SR2.  |
+| 10                | Address of CLMP_LessThan_Microstate | For a CLMP instruction, when DR < SR1.  |
+| 11                | Address of CLMP_MoreThan_Microstate | For a CLMP instruction, when DR > SR2.  |
