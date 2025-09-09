@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "980daea0b2aa65bf",
+        "id": "96e463e415f7f0a0",
         "type": "tabs",
         "children": [
           {
-            "id": "d3d52efd4642d17c",
+            "id": "043d1923c23b7abb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Control Unit.md",
+                "file": "Discontinuities.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Control Unit"
+              "title": "Discontinuities"
             }
           }
         ]
@@ -168,23 +168,26 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "bases:Create new base": false
     }
   },
-  "active": "d3d52efd4642d17c",
+  "active": "043d1923c23b7abb",
   "lastOpenFiles": [
+    "Page Fault.md",
+    "Discontinuities.md",
+    "Clock.md",
+    "Clock Cycle.md",
+    "Control Unit.md",
+    "ROM.md",
+    "Finite State Machine.md",
+    "Microcode.md",
     "Pasted image 20250907153336.png",
     "LC 2200.md",
     "Memory.md",
     "RAM.md",
     "Bit Mask.md",
-    "Microcode.md",
-    "Control Unit.md",
-    "ROM.md",
     "Pasted image 20250905153542.png",
     "Addressing Mode.md",
-    "Finite State Machine.md",
     "Tri State Buffer.md",
     "Combinational Logic.md",
     "Sequential Logic.md",
@@ -199,11 +202,8 @@
     "GBA.md",
     "Storage.md",
     "Von Neumann Architecture.md",
-    "Clock.md",
     "Instruction Cycle.md",
     "LC3 Instructions.md",
-    "Read Only Memory.md",
-    "LC3.md",
     "Untitled/Pasted image 20250905133826.png",
     "Untitled/Pasted image 20250905133529.png",
     "res/Pasted image 20250901193653.png",

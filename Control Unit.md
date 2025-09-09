@@ -23,3 +23,11 @@ It would probably look something like this
 | 01                | Address of BGT_Branch_Microstate    | For a BGT instruction, when SR1 > SR2.  |
 | 10                | Address of CLMP_LessThan_Microstate | For a CLMP instruction, when DR < SR1.  |
 | 11                | Address of CLMP_MoreThan_Microstate | For a CLMP instruction, when DR > SR2.  |
+
+# Flat ROM
+* More space
+* Faster since only one ROM access in each microinstruction
+
+# Hardwired
+* More expensive
+* Doesn't have to wait on any ROMs

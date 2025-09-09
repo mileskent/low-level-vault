@@ -1,0 +1,1 @@
+an exception that the memory management unit raises when a process accesses a memory page without proper preparations

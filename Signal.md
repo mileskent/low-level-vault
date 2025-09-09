@@ -8,4 +8,4 @@ SIGHUP
 SIGKILL
 ...
 
-Pretty similar to handling an [[Traps & Interrupts|Interrupt]]
+Pretty similar to handling an [[Discontinuities|Interrupt]]
