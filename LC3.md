@@ -9,19 +9,12 @@ Controlled by [[Finite State Machine]]
 > [!Example]- Simplified Datapath
 ![[Pasted image 20250330143501.png|600]]
 ## Components
-* 8 registers in the [[Register File Circuit]]
+* 8 registers in the [[Register File]]
 * [[ALU]]
-	* ***ADD***
-	* ***AND***
-	* ***NOT***
-	* ***PASS***
-		* Passes SR1 to bus
-		* Only accessable through [[Microcode]]
 * [[ROM]]
 * [[RAM]]
 * [[Finite State Machine]]
 * [[PC]]
-* etc... #todo
 
 
 

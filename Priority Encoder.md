@@ -1,0 +1,1 @@
+Returns the value of the lowest index high signal, e.g. if input n and n + a are high, n will be passed. In general, if L is a list of the indicies of high input signals, the result will be min(L).

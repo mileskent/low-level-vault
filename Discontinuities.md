@@ -1,17 +1,79 @@
-# Synchronous
-Synchronous events occur at well defined points aligned with activity of the system, e.g. opening a file. 
-# Asynchronous
-Asychronous events occur unexpectedly with resspect to ongoing actvity on the system, e.g. a user pressed akey on a keyboard.
+![[Pasted image 20250911121949.png|400]]
+> When a discontinuity occurs, it must be handled. This is managed at the [[Microarchitecture]] level
 
-# Interrupt
+# Synchronicity
+## Synchronous
+Synchronous events occur at well defined points aligned with activity of the system, e.g. opening a file. They are usually invoked by a program.
+## Asynchronous
+Asychronous events occur unexpectedly with resspect to ongoing actvity on the system, e.g. a user pressed akey on a keyboard. They are external to the activity of a program.
+
+# Classifications
+## Interrupt
 [[#Asynchronous]] events usually produced by I/O devices which must be handled by the processor by interrupting execution of the currently running process
-# Trap
-[[#Synchronous]] events producted by special instructions typically used to allow secure entry into [[Operating System]] level code, e.g. [[Page Fault]].
-# Exception
+## Trap
+[[#Synchronous]] events producted by special instructions typically used to allow secure entry into [[Operating System]] level code, e.g. a system call to open a file.
+## Exception
 [[#Synchronous]] evetns usually associated with software requesting something the ahrdware can't perform, e.g. illegal addressing, illegal [[Opcode]], dividing by zero, etc.
 
+# Handler
+[[#INT Macrostate]]:
+* $k0 = PC
+* Assert interrupt acknowledgement
+* PC = mem\[ETR\]
+* user mode ? USP = $sp, $sp = SSP, mode = kernel
+* push previous mode on stack
+* disable interrupts (DI)
 
-# LC3
+HANDLER:
+* (Handler starts with interrupts disabled)
+* push $k0 onto kernel stack
+* enable interrupts (EI)
+* save processor registers to kernel stack
+* execute device subroutine, e.g. mouse interrupt
+* restore processor registers from kernel stack 
+* disable interrupts
+* pop $k0 from kernel stack
+* return to original program using RETI
+
+[[#RETI]]: 
+* PC = $k0
+* mode = pop mode from kernel stack
+* user mode ? SSP = $sp, $sp = USP
+* enable interrupts
+
+
+
+![[Pasted image 20250911130749.png|300]]
+> Cascading handler calls
+
+* This is essentially just an elevated function call. Accordingly, you can interrupt an interrupt just like you can call a function within a function. However, we don't use the user stack like a normal function. Instead we use a kernel (system) stack that is managed by the [[Operating System]]. This means we have to have two additional registers for a system stack pointer, and a user stack pointer.
+* There is no way to prevent an interrupt from happening before $k0 happens, which is a problem. We would need groups of machine instructions to behave atomically, i.e. as if they were all executed as a single instruction, in order to fix this issue. Therefore, we introduce another register to store whether or not interrupts are enabled, and disable this register when we are saving or restoring our processor registers within a given handler. We therefore disable interrupts in our interrupt macrostate. This neccesitates that there is a way to enable and disable interrupts. In [[LC 2200]], there are two instructions for this.
+* Also need to atomically enable interrupts and set the PC to return from the handler 
+* We also have to keep track of user/kernel mode. Only kernel mode can run RETI or touch the kernel stack.
+
+# Interrupt Vector Table
+Map from interrupt ID to address of handler code in [[Memory]]. 
+This allows the [[Microcode]] to begin the execution of a handler by grabbing the interrupt ID, e.g. from the [[#Exception / Trap Register (ETR)]] on [[LC 2200]].
+![[Pasted image 20250911122453.png|400]]
+
+# [[LC 2200]]
+## Exception / Trap Register (ETR)
+Contains a unique ID stashed by the hardware to indicate the type of discontinuity
+## Interrupt Enable Register (IER)
+1 when interrupts are enabled, and vice versa.
+### Interrupt Enable (IE)
+Set IER
+### Disable Interrupt (DI)
+Clear IER
+## INT Macrostate
+Take an interrupt after execute macrostate, before fetch. If interrupt flag is set, then take it.
+![[Pasted image 20250911123124.png|400]]
+If the interrupt get taken, it basically does a [[LC 2200#Instructions#jalr]]
+## RETI
+return from exception/trap/interrupt
+atomically enables interrupts and sets the PC to return from the handler 
+
+# [[LC3]]
 Handled by
 * Save CPU state (Processor Status Register - PSR)
 * Last 3 bits of PSR are NZP
