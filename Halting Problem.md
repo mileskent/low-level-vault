@@ -1,0 +1,2 @@
+[It is impossible to predict whether an arbitrary program on an arbitrary archiecture will or will not halt during the duration of its execution](https://www.youtube.com/watch?v=92WHN-pAFCs)
+This is proved by contradiction.
