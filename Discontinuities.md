@@ -19,7 +19,7 @@ Asychronous events occur unexpectedly with resspect to ongoing actvity on the sy
 [[#INT Macrostate]]:
 * $k0 = PC
 * Assert interrupt acknowledgement
-* PC = mem\[ETR\]
+* PC = mem\[IVT\]
 * user mode ? USP = $sp, $sp = SSP, mode = kernel
 * push previous mode on stack
 * disable interrupts (DI)
