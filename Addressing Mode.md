@@ -9,5 +9,5 @@
 * Base + Index
 
 # See also
-[[LC3]], [[LC3 Instructions]]
+[[LC3]]
 

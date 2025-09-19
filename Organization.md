@@ -1,0 +1,2 @@
+Defines how the [[Architecture]] is implemented with hardware. As opposed to [[Architecture]].
+This deals with the operational units and their interconnections that realize the architectural specifications. It refers to the physical implementation and the internal details like the control signals, memory types, and peripheral interfaces. Organization is concerned with the "how" a system does what it does, including components such as the [[CPU]]'s [[Control Unit]], [[ALU]] (Arithmetic Logic Unit), data paths, memory hierarchy, and the way data moves between these components.

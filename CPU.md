@@ -1,4 +1,3 @@
-Loves memoization/caching
+Central Processing Unit. 
 
-# See also
-[[Memory vs Registers]]
+Loves memoization/caching

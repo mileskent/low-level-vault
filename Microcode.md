@@ -4,5 +4,8 @@ Lots of microcode culminates in a microprogram.
 Input bits <-> current state, address
 Each line <-> outputs, next state
 
-![[Pasted image 20250209153845.png]]
+![[Pasted image 20250209153845.png|800]]
 > Microcode for [[LC3]]
+
+![[Pasted image 20250918231115.png|800]]
+> Microcode for [[LC 4200]]'s main ROM

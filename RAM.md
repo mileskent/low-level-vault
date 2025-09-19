@@ -3,9 +3,6 @@ A [[Memory]] device that allows data items to be read or written in essentially 
 > [!warning]
 The words "memory" and "RAM" may be used interchangably! Keep in mind that they mean different things. See [[Memory]] for more info.
 
-
-![[Pasted image 20250905133826.png]]
-> Blackbox model of memory
 # Performance
 ![[Pasted image 20250820195530.png]]
 

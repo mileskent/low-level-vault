@@ -1,0 +1,1 @@
+How long does it take to get an answer. Could be measured by cycles per instruction. This influences [[Throughput]].
