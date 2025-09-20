@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7e5bc8b30a2194c7",
+        "id": "eda6ef14a2e5c76c",
         "type": "tabs",
         "children": [
           {
-            "id": "4856e036ce761d86",
+            "id": "581c28ff2a6096e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LC 2200.md",
+                "file": "Pipeline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LC 2200"
-            }
-          },
-          {
-            "id": "7113525fbb4e9602",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Architecture"
+              "title": "Pipeline"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture.md",
+                "file": "Pipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Architecture"
+              "title": "Backlinks for Pipeline"
             }
           },
           {
@@ -183,11 +168,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "7113525fbb4e9602",
+  "active": "581c28ff2a6096e8",
   "lastOpenFiles": [
+    "Pipeline.md",
+    "Register File.md",
+    "Register Forwarding.md",
+    "Pasted image 20250920140006.png",
+    "NOOP.md",
+    "Pasted image 20250920134507.png",
+    "Pasted image 20250920134433.png",
     "LC 2200.md",
-    "Architecture Style.md",
     "Architecture.md",
+    "Architecture Style.md",
     "Arena.md",
     "malloc.md",
     "Canary.md",
@@ -200,9 +192,6 @@
     "res/Pasted image 20250918224535.png",
     "res/Pasted image 20250918225405.png",
     "res/Pasted image 20250918225519.png",
-    "res/Pasted image 20250918225900.png",
-    "res/Pasted image 20250918230404.png",
-    "res/Pasted image 20250918230521.png",
     "SIMD.md",
     "AND.md",
     "C Notable Features.md",
@@ -213,14 +202,10 @@
     "Stack Frame.md",
     "Caller.md",
     "Calling Convention.md",
-    "Pipeline.md",
     "ADD.md",
     "LC3 Instructions.md",
     "Control Unit.md",
     "LC 4200.md",
-    "Microcode.md",
-    "ALU.md",
-    "Organization.md",
     "Untitled",
     "TCP"
   ]
