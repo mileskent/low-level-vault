@@ -1,3 +1,4 @@
+Specifically [Instruction Pipelining](https://en.wikipedia.org/wiki/Instruction_pipelining). Pipelines are just an abstract technique.
 # Bill's Sandwich Shop Analogy
 The figure is an analogy for a pipeline. As opposed to one worker making all sandwiches, tasks are delegated as one task per employee. Each employee hands off their current sandwich down the line, along with an order form. In this organization, all stations will fill up, and there will be one sandwich per cycle instead of per 5 cycles. Another analogy for what this is like is a hose. You turn on the faucet and after a brief while, you get a continous stream of water.
 ![[Pasted image 20250918224333.png|500]]
