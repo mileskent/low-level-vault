@@ -1,3 +1,3 @@
 Central Processing Unit. 
-
-Loves memoization/caching
+The primary processor for a computer. Capable of a wide range of serial tasks.
+Loves memoization/caching. Has a [[Control Unit]]. See [[Pipeline|Pipelining]]. 

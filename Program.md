@@ -1,0 +1,2 @@
+![[Pasted image 20250923202345.png]]
+Note that an [[Assembler]] isn't shown, because a separate step for assembling is slower. You would only do that if you were very limited in [[Memory]], e.g. you are in 1970.

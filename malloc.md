@@ -14,10 +14,8 @@ if ((rp = (type *)malloc(sizeof r)) == NULL) {
 }
 ```
 
-### Allocating Memory
-#todo
-
 ### See also
+[[Heap Allocation]]
 [[sbrk]]
 [[calloc]]
 [[realloc]]
