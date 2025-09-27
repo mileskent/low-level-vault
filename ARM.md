@@ -1,4 +1,4 @@
-A family of [[RISC]] [[ISA]]s.
+A family of [[RISC]] [[Instruction Set Architecture|ISA]]s.
 
 # ARM vs [[LC3]]
 * Both are Load/Store architectures

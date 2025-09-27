@@ -1,4 +1,8 @@
-"Instruction Set Architecture". See Patt 1.7.4
+---
+aliases:
+  - ISA
+---
+See Patt 1.7.4
 The ISA is responsible for defining the set of instructions to be supported by the processor. It is the assembly language for that processor. It is a level of abstraction above the [[Microarchitecture]] of the processor.
 * Examples include
 	* [[LC3]]

@@ -6,6 +6,6 @@ The adjective endian has its origin in the writings of 18th century Anglo-Irish 
 
 # Little Endian
 Address starts with least significant byte of the word (the normal one 🙂)
-"Normal" because it is dominant today. You really only get [[#Big Endian]] for super old [[ISA]]s... and the [[IP Protocol|Internet]] 😳
+"Normal" because it is dominant today. You really only get [[#Big Endian]] for super old [[Instruction Set Architecture]]s... and the [[IP Protocol|Internet]] 😳
 # Big Endian
 Address starts most significant byte of the word

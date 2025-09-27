@@ -1,4 +1,4 @@
-We only care about **microprogrammed control units** which are a type of CPU [control unit](https://en.wikipedia.org/wiki/Control_unit) that generate the control signals needed to execute machine instructions by reading [[Microcode]] from the main [[ROM]]. This control unit, controls the [[Finite State Machine]] that keeps track of the states of all of the gates and mux signals and such, directing the control flow of the [[ISA]] and [[Macrostate]]s. Not all control units use microcode.
+We only care about **microprogrammed control units** which are a type of CPU [control unit](https://en.wikipedia.org/wiki/Control_unit) that generate the control signals needed to execute machine instructions by reading [[Microcode]] from the main [[ROM]]. This control unit, controls the [[Finite State Machine]] that keeps track of the states of all of the gates and mux signals and such, directing the control flow of the [[Instruction Set Architecture|ISA]] and [[Macrostate]]s. Not all control units use microcode.
 
 > [!note]+ Georgia Tech
 > Georgia Tech seems to uniquely call microprogrammed control units microcontrollers and microcontrol unit

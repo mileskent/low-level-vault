@@ -1,1 +1,1 @@
-The caller of a function. Its responsibilities depend on the [[ISA]]'s [[Calling Convention]] 
+The caller of a function. Its responsibilities depend on the [[Instruction Set Architecture|ISA]]'s [[Calling Convention]] 

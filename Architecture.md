@@ -1,6 +1,6 @@
 Architecture defines what a computer system will do. As opposed to [[Organization]]
 The abstract design and structure of a computer system. It includes the set of rules and methods that describe the functionality, organization, and implementation of computer systems. Architecture is concerned with the higher-level aspects like the instruction set (how a machine understands and processes instructions), addressing modes, data types, and the hardware abstraction (e.g., the interaction between the CPU and memory). It is more about the "what" the system does.
-The abstraction involving programmer-visible details of a computer system such as [[ISA]].
+The abstraction involving programmer-visible details of a computer system such as [[Instruction Set Architecture|ISA]].
 
 # Style
 ## Accumulator

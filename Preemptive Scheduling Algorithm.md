@@ -1,0 +1,1 @@
+Algorithm that forcible takes the processor away from the current scheduled process in response to an external event (e.g. I/O completion inrerrupt, timer interrupt)

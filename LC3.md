@@ -14,7 +14,7 @@ Controlled by [[Finite State Machine]]
 * [[ROM]]
 * [[RAM]]
 * [[Finite State Machine]]
-* [[PC]]
+* [[Program Counter]]
 
 
 

@@ -1,6 +1,6 @@
 * Register Mode
 * Immediate (Literal) Mode
-* [[PC|PC]]-relative Mode
+* [[Program Counter|PC]]-relative Mode
 	* e.g. [[LC3 Instructions#LD|LD]]
 	* offset always has to be relative to PC
 * Base + Offset (Offset is [[2's Complement]])
