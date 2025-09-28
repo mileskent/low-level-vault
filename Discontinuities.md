@@ -66,9 +66,15 @@ Set IER
 ### Disable Interrupt (DI)
 Clear IER
 ## INT Macrostate
-Take an interrupt after execute macrostate, before fetch. If interrupt flag is set, then take it.
+Take an interrupt after execute macrostate, before fetch. If interrupt flag (INT) is set and IE = 1, then take it.
 ![[Pasted image 20250911123124.png|400]]
+![[Pasted image 20250928191727.png|400]]
 If the interrupt get taken, it basically does a [[LC 2200#Instructions#jalr]]
+There is an INT line that will be set to 1 if any one of the connected devices need to interrupt.
+This INT 1 or 0 value will be used to decide whether or not to take the INT macrostate.
+If IE is off ignore INT
+Upon entering INT macrostate, INTA is raised by the [[Microcode]]
+If a device isn't interrupting, it passes through the INT signal, else it asserts its device ID onto the Data bus, so that the [[Control Unit]] can save it to the ETR. Then that value in the ETR is used as an index into the IVT so that the [[Program Counter|PC]] can be set to the beginning of the interrupt subroutine.
 ## RETI
 return from exception/trap/interrupt
 atomically enables interrupts and sets the PC to return from the handler 

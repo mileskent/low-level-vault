@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "85f1afc3e5072a5f",
+        "id": "eadb1025820a25db",
         "type": "tabs",
         "children": [
           {
-            "id": "56153462f2c71d33",
+            "id": "09cccda2441507c9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Execution time",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,8 +164,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "56153462f2c71d33",
+  "active": "09cccda2441507c9",
   "lastOpenFiles": [
+    "Discontinuities.md",
+    "Microcode.md",
+    "Pasted image 20250928191727.png",
     "Scheduler.md",
     "Process Control Block.md",
     "Operating System.md",
@@ -196,12 +199,9 @@
     "Storage.md",
     "res/Pasted image 20250927151728.png",
     "Process.md",
-    "Thread.md",
-    "Multithreading.md",
     "res/Pasted image 20250927151239.png",
     "res/Pasted image 20250927151105.png",
     "res/Pasted image 20250927150809.png",
-    "res/Pasted image 20250927150711.png",
     "Untitled",
     "TCP"
   ]
