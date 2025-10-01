@@ -29,8 +29,10 @@ It would probably look something like this
 * Faster since only one ROM access in each microinstruction
 * Add a T bit to the ROM
 	* AND the T bit and the Z reg become the 6th address bit
+	* This will result in branching behavior
 * Add an M bit to the ROM 
 	* AND the M bit and the OP to become the 7-10 address bits
+	* This will result in branching behavior
 * Clone fetch in microcode
 
 # Hardwired

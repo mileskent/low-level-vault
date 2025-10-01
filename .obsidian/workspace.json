@@ -4,20 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "bf90a2507e10c197",
+        "id": "c2445291b39b4db4",
         "type": "tabs",
         "children": [
           {
-            "id": "a77173b33c252c98",
+            "id": "887ac0b63cbcb6c4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Pipeline.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pipeline"
+            }
+          },
+          {
+            "id": "1eb7f749914ab7bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scheduling Algorithm.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Scheduling Algorithm"
+            }
+          },
+          {
+            "id": "c82e6f725bf681d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Control Unit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Control Unit"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "turnaround",
+                "query": "Branch Predi",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +103,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -90,6 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Scheduling Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Scheduling Algorithm"
             }
           },
           {
@@ -163,8 +198,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "a77173b33c252c98",
+  "active": "1eb7f749914ab7bc",
   "lastOpenFiles": [
+    "Branching.md",
+    "Control Unit.md",
+    "Pipeline.md",
+    "Symbol Table.md",
+    "D Flip Flop.md",
+    "Flip Flop.md",
+    "MIPS.md",
+    "Modulo.md",
     "Memory.md",
     "LC3.md",
     "Scheduler.md",
@@ -184,17 +227,9 @@
     "dsa-vault/Deque.md",
     "Heap.md",
     "res/Pasted image 20250928191727.png",
-    "Application Binary Interface.md",
     "dsa-vault/res/Pasted image 20250414201626.png",
     "dsa-vault/res/CutPropertyMST.png",
-    "Discontinuities.md",
-    "Microcode.md",
-    "Process Control Block.md",
-    "Operating System.md",
-    "Multitasking.md",
-    "Dispatcher.md",
     "res/Pasted image 20250927161523.png",
-    "Performance.md",
     "res/Pasted image 20250927155958.png",
     "res/Pasted image 20250927155945.png",
     "res/Pasted image 20250927154154.png",
