@@ -1,0 +1,1 @@
+* A *Trail* is a **set** of [[Edge|edges]] through the [[Graph]] where repeated [[Vertex|vertices]] are allowed

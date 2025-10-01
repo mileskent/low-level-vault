@@ -1,0 +1,1 @@
+* An *Edge* connects a pair of [[Vertex|Vertices]], in a [[Graph]]

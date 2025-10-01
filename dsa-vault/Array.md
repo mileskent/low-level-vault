@@ -1,0 +1,1 @@
+A contiguous block in memory.

@@ -1,0 +1,1 @@
+* A *Circuit* is a [[Trail]] where the first and last [[Vertex|vertices]] connect -> closed trail

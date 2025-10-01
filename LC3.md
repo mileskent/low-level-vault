@@ -52,4 +52,4 @@ The [[Opcode]] actually goes into a [[Decoder]], which chooses the relevant inst
 * $2^{16}$ memory locations from 0x0000 to 0xFFFF
 * $16$ bits per [[Word]]
 * Instructions start at 0x3000,
-	* Recall typical [[orig]] in [[LC3 Instructions]]
+	* Recall typical [[orig]] in LC3 Instructions

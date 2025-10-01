@@ -1,0 +1,1 @@
+* A *Cycle* is a [[Path]] where the first and last [[Vertex|vertices]] connect -> closed path

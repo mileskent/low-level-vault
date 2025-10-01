@@ -1,0 +1,1 @@
+* All nodes have exactly 0 or 2 children

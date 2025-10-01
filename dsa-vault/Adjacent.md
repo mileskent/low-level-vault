@@ -1,0 +1,1 @@
+* Two [[Vertex|vertices]] are *adjacent* if they are connected by a common [[Edge]]

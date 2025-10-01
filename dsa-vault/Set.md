@@ -1,0 +1,1 @@
+A group of elements with no duplicates

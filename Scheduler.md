@@ -45,11 +45,9 @@ Queue of PCBs that represent the set of memory resident processes that are waiti
 # Thrashing
 A phenomenon wherin the dynamic memory usage of the processes current in the [[#Ready Queue]] exceed the total memory capacity of the system. The system's resources have been overcommitted. The [[#Medium Term Scheduler]] would get involved and evict some [[Process Control Block|PCB]]s out of the Ready Queue. 
 
-# Nonpreemptive Scheduling Algorithm
-![[Nonpreemptive Scheduling Algorithm]]
 
-# Preemptive Scheduling Algorithm
-![[Preemptive Scheduling Algorithm]]
+# Scheduling Algorithms
+![[Scheduling Algorithm]]
 
 # Metrics
 ![[Pasted image 20250927155958.png]]

@@ -1,0 +1,1 @@
+A [[Tree]] that includes all the [[Vertex|vertices]] and has no [[Cycle|cycles]]

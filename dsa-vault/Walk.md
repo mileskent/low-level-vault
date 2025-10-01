@@ -1,0 +1,1 @@
+* A *Walk* is a [[Trail]] where [[Edge|edges]] can repeat

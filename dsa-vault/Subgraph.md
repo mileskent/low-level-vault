@@ -1,0 +1,1 @@
+A subgraph S of a [[Graph]] G is a graph whose set of [[Vertex|vertices]] and [[Edge|edges]] are all subsets of G.

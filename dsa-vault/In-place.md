@@ -1,0 +1,1 @@
+The data being sorted is not copied to somewhere else in memory.

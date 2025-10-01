@@ -1,0 +1,1 @@
+A [[Memoization]] technique where a rolling sum is calculated for a list of data.

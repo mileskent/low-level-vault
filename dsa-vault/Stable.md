@@ -1,0 +1,1 @@
+Equal items stay in the same relative order
