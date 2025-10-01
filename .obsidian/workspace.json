@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "eadb1025820a25db",
+        "id": "c2032701511089a2",
         "type": "tabs",
         "children": [
           {
-            "id": "09cccda2441507c9",
+            "id": "c70f22e6f320e471",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Preemptive Scheduling Algorithm.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Preemptive Scheduling Algorithm"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "turnaround",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,12 +74,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 281.51103591918945
+    "width": 281.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "8631e8703029880f",
@@ -91,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Preemptive Scheduling Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Preemptive Scheduling Algorithm"
             }
           },
           {
@@ -151,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,12 +170,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "09cccda2441507c9",
+  "active": "c70f22e6f320e471",
   "lastOpenFiles": [
+    "Scheduler.md",
+    "Untitled.md",
     "Discontinuities.md",
     "Microcode.md",
     "Pasted image 20250928191727.png",
-    "Scheduler.md",
     "Process Control Block.md",
     "Operating System.md",
     "Multitasking.md",
@@ -198,7 +205,6 @@
     "Program Counter.md",
     "Storage.md",
     "res/Pasted image 20250927151728.png",
-    "Process.md",
     "res/Pasted image 20250927151239.png",
     "res/Pasted image 20250927151105.png",
     "res/Pasted image 20250927150809.png",
