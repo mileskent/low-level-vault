@@ -1,0 +1,1 @@
+Multiple things can happen at once, but are probably interleaved through [[Scheduler|Scheduling]], the order matters, and sometimes tasks have to wait on shared resources, e.g. [[Multithreading]], [[Round Robin|Time Slice Scheduling]]

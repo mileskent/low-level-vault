@@ -1,3 +1,8 @@
+---
+aliases:
+  - Dynamic Memory
+---
+
 [[malloc]]
 [[calloc]]
 [[free]]

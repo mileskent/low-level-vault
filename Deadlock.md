@@ -1,0 +1,1 @@
+A [[Thread]] does not unlock a [[Mutex]] after locking it. This prevents all other threads from making progress.
