@@ -5,7 +5,7 @@ aliases:
 Scheduler is responsible for scheduling many [[Process|processes]]. This is called scheduling. 
 ![[Pasted image 20250927150123.png|400]]
 Who gets to use the Processor at any given moment? Different processes will have different priorities. There are also properties enforced by system policies that affect the decision.
-
+It is usually implemented in [[C]], unlike the [[Dispatcher]] which is usually in [[Assembly]]
 ![[Pasted image 20250927151728.png|400]]
 # Context Switch
 * Grab attention of processor
@@ -19,6 +19,7 @@ Who gets to use the Processor at any given moment? Different processes will have
 	* Call [[Dispatcher]] for the closest [[Process Control Block|PCB]] in the Ready Queue, load state of the selected PCB into processor registers (PC, [[Register File]])
 
 ![[Pasted image 20250927154154.png|400]]
+The scheduler does not call any process to run. Instead it rearranges the PCB queues and then returns to the first out of the queue.
 # Loader
 ![[Loader]]
 # Dispatcher
@@ -49,6 +50,7 @@ A phenomenon wherin the dynamic memory usage of the processes current in the [[#
 # Scheduling Algorithms
 ![[Scheduling Algorithm]]
 
+
 # Metrics
 ![[Pasted image 20250927155958.png]]
 where $w_{i}, e_{i}, t_{i}$ are respectively the [[#Wait Time]], [[Performance#Execution Time]], and [[#Turnaround Time]] (elapsed time) for a job $j_{i}$
@@ -72,3 +74,14 @@ E.g. I put in a long job, and all my friends are spamming short jobs; [[#Shortes
 ## Convoy Effect
 User-centric metric that results in a detrimental effect to some set of processes due to some intrinc property of the scheduler.
 E.g. I put in a long job, and all of my friends with short jobs have to wait; [[#First Come First Serve]]
+
+# Environments
+| Domains    | Environment                                 | Workload characteristics                       | Types of schedulers                            |
+| ---------- | ------------------------------------------- | ---------------------------------------------- | ---------------------------------------------- |
+| Desktop    | Timeshared, interactive, multiprogrammed    | I/O bound                                      | Medium-term, short-term, dispatcher            |
+| Servers    | Timeshared, multiprogrammed                 | Computation bound                              | Medium-term, short-term, dispatcher            |
+| Business   | Batch-oriented, timeshared, multiprogrammed | I/O bound                                      | Long-term, Medium-term, short-term, dispatcher |
+| HPC        | Batch-oriented, timeshared, multiprogrammed | Computation bound                              | Long-term, Medium-term, short-term, dispatcher |
+| Cloud/grid | Batch-oriented, timeshared, multiprogrammed | Computation bound                              | Long-term, Medium-term, short-term, dispatcher |
+| Embedded   | Timeshared, interactive, multiprogrammed    | I/O bounds                                     | Medium-term, short-term, dispatcher            |
+| Pervasive  | Timeshared, interactive, multiprogrammed    | Combination of I/O bound and computation bound | Medium-term, short-term, dispatcher            |
