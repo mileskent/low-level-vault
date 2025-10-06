@@ -56,12 +56,14 @@ A phenomenon wherin the dynamic memory usage of the processes current in the [[#
 where $w_{i}, e_{i}, t_{i}$ are respectively the [[#Wait Time]], [[Performance#Execution Time]], and [[#Turnaround Time]] (elapsed time) for a job $j_{i}$
 ## Throughput
 Jobs per second
+## Execution Time
+How long did this job stay on the CPU during its execution?
 ## Turnaround Time
 How long did this job take to complete after being requested?
 ### Average Turnaround Time
 Average the turnaround times
 ## Wait Time
-How long did this job take to start?
+How long did this job remain idle after being requested?
 ### Average Wait Time
 Average the wait times
 ## Response Time

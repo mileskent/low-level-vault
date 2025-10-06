@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "fce2add5a93d7899",
+        "id": "fb9a36fe48f7a467",
         "type": "tabs",
         "children": [
           {
-            "id": "55f36a3be137a912",
+            "id": "488a2189a772eb7b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Scheduler.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Scheduler"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "starvat",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Pipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Pipeline"
             }
           },
           {
@@ -150,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,8 +170,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "55f36a3be137a912",
+  "active": "488a2189a772eb7b",
   "lastOpenFiles": [
+    "Branching.md",
+    "Pipeline.md",
+    "Branch Target Buffer.md",
     "res/Pasted image 20251005002821.png",
     "res/Pasted image 20251005014310.png",
     "Memory Brokerage.md",
@@ -194,8 +204,6 @@
     "Mutex.md",
     "Data Race.md",
     "Resource Aquisition is Initialization.md",
-    "Heap Allocation.md",
-    "Thread.md",
     "res/Pasted image 20250928191727.png",
     "dsa-vault/res/Pasted image 20250414201626.png",
     "dsa-vault/res/CutPropertyMST.png",

@@ -26,6 +26,8 @@ If prediction is correct, then we get pipelining benefit, and it is as if no bra
 ![[Pasted image 20250923194511.png|400]]
 ![[Pasted image 20250923194531.png|400]]
 It is impossible to always guess whether we branch. See [[Halting Problem]].
+
+![[Branch Target Buffer]]
 ### Heuristics
 * Compare target with current PC
 	* Loops generally branch backwards (target < PC)

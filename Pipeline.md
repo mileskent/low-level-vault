@@ -17,12 +17,12 @@ Accordingly, you can imagine how you could implement this pipelining for the mac
 
 And this is how it would actually work.
 ![[Pasted image 20250918225900.png|500]]
+
 IF - fetch instruction in IR and increment PC
 ID/RR - decode and read register contents
 EX - performan arithmetic/logic if needed, address computation if needed
 MEM - fetch/store memory operand if needed
 WB - write to register if needed
-
 Each stage is separated by registers, which are called "buffers" in this context, because they buffer between stages
 ![[Pasted image 20250918230521.png|500]]
 
