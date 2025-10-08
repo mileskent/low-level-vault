@@ -1,3 +1,4 @@
+![[Pasted image 20251008143728.png|200]]
 * Round Robin is a [[Scheduling Algorithm#Preemptive]] [[Scheduling Algorithm]]
 * Requires a timer interrupt
 * When a processes starts, it is given a **time quantum** (time slice) which limits the continuous CPU time it may use
