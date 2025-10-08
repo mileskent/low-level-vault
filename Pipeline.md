@@ -78,9 +78,11 @@ Program limitations, dealing with branches
 * Any instruction that is not yet executing whose registers have a least one busy bit must wait for the currently executing instruction to finish before proceeding down the pipeline.
 * ID/RR sets the busy bit, WB resets it
 # Register Forwarding
-* logic in ID/RR: RP ? use forwarded value : read entry from DPRF
-* The forwarded value is passed back from the currently executing instruction to the one in ID/RR if applicable
-* Eliminates [[#Bubble|Bubbles]] caused by [[#Read After Write]] hazards for all instructions that get their result in EXEC (so LW has bubbles)
+* RP (read-pending) signal associated with each register to indicate an instruction is stalled in ID/RR for this register value
+* if RP { use forwarded value } else { read entry from DPRF }
+* The forwarded value is passed back from the deeper, associated instruction to the one in ID/RR if applicable
+* Eliminates all [[#Bubble|Bubbles]] caused by [[#Read After Write]] hazards for all instructions that get their result in EXEC
+	* for LW, you have to wait for it to get its result from MEM, so you get an EXEC bubble
 * Faster than [[#Busy Bit]] because you avoid [[#Pipeline Stall|stalling]], but more complicated
 
 ![[Branching#Pipelined Branching]]

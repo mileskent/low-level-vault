@@ -1,5 +1,6 @@
 [
   "obsidian-latex-suite",
   "obsidian-relative-line-numbers",
-  "short-internal-links-to-headings"
+  "short-internal-links-to-headings",
+  "export-to-html"
 ]

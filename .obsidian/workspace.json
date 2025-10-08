@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scheduler.md",
+                "file": "meta/cs2200/m2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scheduler"
+              "title": "m2"
+            }
+          },
+          {
+            "id": "a5e9a95b8e065e5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Performance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Performance"
             }
           }
         ]
@@ -53,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "static freq",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.51103591918945
+    "width": 281.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "8631e8703029880f",
@@ -170,10 +185,60 @@
       "bases:Create new base": false
     }
   },
-  "active": "488a2189a772eb7b",
+  "floating": {
+    "id": "45bf9ca48b8a3f9f",
+    "type": "floating",
+    "children": [
+      {
+        "id": "fbd35ced5df66476",
+        "type": "window",
+        "children": [
+          {
+            "id": "8d70d482823d4c71",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "61a14cf9d7b57fa2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Branching.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Branching"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1964,
+        "y": 48,
+        "width": 1876,
+        "height": 1000,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "61a14cf9d7b57fa2",
   "lastOpenFiles": [
-    "Branching.md",
+    "meta/cs2200/m2.md",
+    "Performance.md",
     "Pipeline.md",
+    "Round Robin.md",
+    "Dispatcher.md",
+    "Process Control Block.md",
+    "Latency.md",
+    "Scheduler.md",
+    "Loader.md",
+    "Branching.md",
+    "Pasted image 20251007165740.png",
+    "meta/cs2200",
+    "meta",
     "Branch Target Buffer.md",
     "res/Pasted image 20251005002821.png",
     "res/Pasted image 20251005014310.png",
@@ -184,9 +249,6 @@
     "Virtual Address.md",
     "Physical Address.md",
     "Assembly.md",
-    "Scheduler.md",
-    "Loader.md",
-    "Dispatcher.md",
     "res/Pasted image 20251005013233.png",
     "res/Pasted image 20251005012359.png",
     "res/Pasted image 20251005012333.png",
@@ -199,16 +261,9 @@
     "Instruction Set Architecture.md",
     "Kernel.md",
     "C++ Multithreading.md",
-    "C++.md",
-    "Deadlock.md",
-    "Mutex.md",
-    "Data Race.md",
-    "Resource Aquisition is Initialization.md",
     "res/Pasted image 20250928191727.png",
     "dsa-vault/res/Pasted image 20250414201626.png",
     "dsa-vault/res/CutPropertyMST.png",
-    "res/Pasted image 20250927161523.png",
-    "Untitled",
     "TCP"
   ]
 }
