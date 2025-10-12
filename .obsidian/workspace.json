@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "469dfff59e6564f4",
+        "id": "5512639f084faea5",
         "type": "tabs",
         "children": [
           {
-            "id": "a0088b3498602c4d",
+            "id": "2a933e7a76e982c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Round Robin.md",
+                "file": "C++ Smart Pointer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Round Robin"
+              "title": "C++ Smart Pointer"
             }
           }
         ]
@@ -169,14 +169,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "a0088b3498602c4d",
+  "active": "2a933e7a76e982c6",
   "lastOpenFiles": [
-    "Pasted image 20251008143728.png",
+    "dsa-vault/Graph.md",
+    "C++ Smart Pointer.md",
+    "Ownership.md",
+    "Dangling Pointer.md",
+    "Pointer.md",
+    "C++ Multithreading.md",
+    "res/Pasted image 20251008143728.png",
+    "Round Robin.md",
     "meta/cs2200/m2.md",
     "Branching.md",
     "m2.md",
     "Pipeline.md",
-    "Pasted image 20251007165740.png",
+    "res/Pasted image 20251007165740.png",
     "meta/cs2200",
     "meta",
     "Scheduler.md",
@@ -200,15 +207,8 @@
     "res/Pasted image 20251005011119.png",
     "Aging.md",
     "Process.md",
-    "Activation Record.md",
-    "Instruction Set Architecture.md",
-    "Kernel.md",
-    "C++ Multithreading.md",
-    "C++.md",
-    "Deadlock.md",
     "res/Pasted image 20250928191727.png",
     "dsa-vault/res/Pasted image 20250414201626.png",
-    "dsa-vault/res/CutPropertyMST.png",
     "TCP"
   ]
 }
