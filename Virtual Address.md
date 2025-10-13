@@ -1,0 +1,2 @@
+An [[Address]] addressed by the [[CPU]], that will be transformed by a [[Memory Management#Memory Broker]] into a physical address. 
+The [[Process]] sees memory addresses *different* from the physical addresses it is actually accessing.

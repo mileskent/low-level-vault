@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5512639f084faea5",
+        "id": "d8c2a8c48057ffc8",
         "type": "tabs",
         "children": [
           {
-            "id": "2a933e7a76e982c6",
+            "id": "c568321d16854b8c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "C++ Smart Pointer.md",
-                "mode": "source",
-                "source": false
+                "file": "res/Pasted image 20251012220055.png"
               },
-              "icon": "lucide-file",
-              "title": "C++ Smart Pointer"
+              "icon": "lucide-image",
+              "title": "Pasted image 20251012220055"
             }
           }
         ]
@@ -169,10 +167,29 @@
       "bases:Create new base": false
     }
   },
-  "active": "2a933e7a76e982c6",
+  "active": "c568321d16854b8c",
   "lastOpenFiles": [
-    "dsa-vault/Graph.md",
+    "Paging.md",
+    "Memory Management.md",
+    "res/Pasted image 20251012223049.png",
+    "res/Pasted image 20251012222921.png",
+    "res/Pasted image 20251012222556.png",
+    "res/Pasted image 20251012222146.png",
+    "Fragmentation.md",
+    "Parition Managment.md",
+    "res/Pasted image 20251012220055.png",
+    "Physical Address.md",
+    "Operating System.md",
+    "Scheduler.md",
+    "Context Switch.md",
+    "dsa-vault/Prim's Algorithm.md",
+    "Virtual Address.md",
+    "Virtual Memory.md",
+    "Relocatibility.md",
+    "Address.md",
+    "Memory Brokerage.md",
     "C++ Smart Pointer.md",
+    "dsa-vault/Graph.md",
     "Ownership.md",
     "Dangling Pointer.md",
     "Pointer.md",
@@ -186,29 +203,9 @@
     "res/Pasted image 20251007165740.png",
     "meta/cs2200",
     "meta",
-    "Scheduler.md",
-    "Branch Target Buffer.md",
     "res/Pasted image 20251005002821.png",
     "res/Pasted image 20251005014310.png",
-    "Memory Brokerage.md",
-    "Memory Management.md",
-    "Relocatibility.md",
-    "LC 2200.md",
-    "Virtual Address.md",
-    "Physical Address.md",
-    "Assembly.md",
-    "Loader.md",
-    "Dispatcher.md",
     "res/Pasted image 20251005013233.png",
-    "res/Pasted image 20251005012359.png",
-    "res/Pasted image 20251005012333.png",
-    "Scheduling Algorithm.md",
-    "Linux.md",
-    "res/Pasted image 20251005011119.png",
-    "Aging.md",
-    "Process.md",
-    "res/Pasted image 20250928191727.png",
-    "dsa-vault/res/Pasted image 20250414201626.png",
     "TCP"
   ]
 }
