@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "d8c2a8c48057ffc8",
+        "id": "5e798652163d35e9",
         "type": "tabs",
         "children": [
           {
-            "id": "c568321d16854b8c",
+            "id": "e39fb7c55fcdf183",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "res/Pasted image 20251012220055.png"
+                "file": "res/Pasted image 20251014212152.png"
               },
               "icon": "lucide-image",
-              "title": "Pasted image 20251012220055"
+              "title": "Pasted image 20251014212152"
             }
           }
         ]
@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ps aux",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,45 +167,46 @@
       "bases:Create new base": false
     }
   },
-  "active": "c568321d16854b8c",
+  "active": "32e428eeb1c175c5",
   "lastOpenFiles": [
+    "Page Replacement Algorithms.md",
+    "Daemon.md",
+    "Belady's Min.md",
+    "Circular Array.md",
+    "dsa-vault/Circular Array List.md",
+    "dsa-vault/Big O, Ω, Θ Notation.md",
+    "dsa-vault/Big O.md",
+    "dsa-vault/Time Complexity.md",
+    "Disk Map.md",
+    "Process Control Block.md",
+    "Frame Table.md",
+    "Page Table.md",
+    "Page Fault.md",
+    "Swap Space.md",
+    "res/Pasted image 20251014220129.png",
+    "res/Pasted image 20251014215922.png",
+    "res/Pasted image 20251014215653.png",
+    "Freelist.md",
     "Paging.md",
+    "dsa-vault/Map.md",
+    "res/Pasted image 20251014215107.png",
+    "C++ Smart Pointer.md",
+    "Process Table.md",
+    "Process ID.md",
+    "dsa-vault/Data Structure.md",
+    "dsa-vault/Array.md",
+    "dsa-vault/HashMap.md",
+    "Scheduler.md",
+    "Storage.md",
     "Memory Management.md",
+    "res/Pasted image 20251014212152.png",
+    "res/Pasted image 20251014211700.png",
+    "res/Pasted image 20251012220055.png",
     "res/Pasted image 20251012223049.png",
     "res/Pasted image 20251012222921.png",
     "res/Pasted image 20251012222556.png",
-    "res/Pasted image 20251012222146.png",
-    "Fragmentation.md",
-    "Parition Managment.md",
-    "res/Pasted image 20251012220055.png",
-    "Physical Address.md",
-    "Operating System.md",
-    "Scheduler.md",
-    "Context Switch.md",
-    "dsa-vault/Prim's Algorithm.md",
-    "Virtual Address.md",
-    "Virtual Memory.md",
-    "Relocatibility.md",
-    "Address.md",
-    "Memory Brokerage.md",
-    "C++ Smart Pointer.md",
-    "dsa-vault/Graph.md",
-    "Ownership.md",
-    "Dangling Pointer.md",
-    "Pointer.md",
-    "C++ Multithreading.md",
-    "res/Pasted image 20251008143728.png",
-    "Round Robin.md",
-    "meta/cs2200/m2.md",
-    "Branching.md",
-    "m2.md",
-    "Pipeline.md",
-    "res/Pasted image 20251007165740.png",
     "meta/cs2200",
     "meta",
-    "res/Pasted image 20251005002821.png",
-    "res/Pasted image 20251005014310.png",
-    "res/Pasted image 20251005013233.png",
     "TCP"
   ]
 }

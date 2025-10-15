@@ -20,4 +20,6 @@
 	* [[Deque]]
 	* [[Heap]]
 		* [[Binary Heap]]
+	* [[Map]]
+		* [[HashMap]]
 	

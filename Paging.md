@@ -7,6 +7,11 @@ Bigger pages yield more [[Fragmentation#Internal|Internal Fragmentation]]
 Smaller pages get us a bigger page table and take more CPU time to manage
 All [[Memory]] is divided into pages
 ![[Pasted image 20251012222921.png|200]]
+![[Pasted image 20251014211700.png|400]]
+## Virtual Page
+Virtual page is a fixed-length block of [[Virtual Memory]] that is mapped to [[Physical Address]]es
+## Page Frame
+A page frame refers to a contiguous block of memory that corresponds to actual storage locations in [[Memory]]
 ## Page Size
 Page size is always a power of 2 for ease of computation.
 * Power of 2 allows us to split the virtual address into a *Virtual Page Number* and *Offset* within the page at a bit boundary (without using division)
@@ -31,12 +36,15 @@ PFN=0x18, Offset=0x0ED
 (011000 | 0011101101) 
 (0110 0000 1110 1101) 
 Physical addr = 0x60ED
+### PFN
+Page Frame Number. Indexes [[#Page Frame]]s.
+### VPN
+Virtual Page Number. Indexes [[#Virtual Page]]s
 
 # Page Table
-A table mapping [[Virtual Address]] to [[Physical Address]] of Pages, used by the memory broker.
-$n$ [[Process]]es requires $n$ Page Tables
-Where page tables live in memory:
-![[Pasted image 20251012222556.png|200]]
-
+![[Page Table]]
 # Broker
 ![[Pasted image 20251012223049.png|400]]
+
+# Page Fault
+![[Page Fault]]
