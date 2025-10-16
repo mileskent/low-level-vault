@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5e798652163d35e9",
+        "id": "db27b3c253c35223",
         "type": "tabs",
         "children": [
           {
-            "id": "e39fb7c55fcdf183",
+            "id": "5651207f5b1cf4e8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "res/Pasted image 20251014212152.png"
+                "file": "Page Replacement Algorithms.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251014212152"
+              "icon": "lucide-file",
+              "title": "Page Replacement Algorithms"
             }
           }
         ]
@@ -51,8 +53,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ps aux",
-                "matchingCase": true,
+                "query": "thrashing",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -72,11 +74,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 281.51103591918945
+    "width": 281.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "8631e8703029880f",
@@ -167,9 +171,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "32e428eeb1c175c5",
+  "active": "5651207f5b1cf4e8",
   "lastOpenFiles": [
+    "Scheduler.md",
     "Page Replacement Algorithms.md",
+    "Paging.md",
+    "res/Pasted image 20251014212152.png",
     "Daemon.md",
     "Belady's Min.md",
     "Circular Array.md",
@@ -187,7 +194,6 @@
     "res/Pasted image 20251014215922.png",
     "res/Pasted image 20251014215653.png",
     "Freelist.md",
-    "Paging.md",
     "dsa-vault/Map.md",
     "res/Pasted image 20251014215107.png",
     "C++ Smart Pointer.md",
@@ -196,10 +202,7 @@
     "dsa-vault/Data Structure.md",
     "dsa-vault/Array.md",
     "dsa-vault/HashMap.md",
-    "Scheduler.md",
     "Storage.md",
-    "Memory Management.md",
-    "res/Pasted image 20251014212152.png",
     "res/Pasted image 20251014211700.png",
     "res/Pasted image 20251012220055.png",
     "res/Pasted image 20251012223049.png",

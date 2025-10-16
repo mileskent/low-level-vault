@@ -19,7 +19,10 @@ The baseline algorithm
 * Go circularly through [[Frame Table]] with a head [[Pointer]] to create FIFO behavior: Clock Algorithm
 # Least Recently Used (LRU)
 * Use past performance as a predictor of the future
-* Use a [[Stack]] where you have a reference to the top and bottom of the stack. Replace the bottom of the stack because it is least recently used.
+* True LRU
+	* Use a push down [[Stack]] where you have a reference to the top and bottom of the stack. 
+	* If you are trying to add an already existing page number to the stack, move its entry from its existing location to the top of the stack
+	* Replace the bottom of the stack because it is least recently used.
  - **Memory references** are known to the **hardware**, but [[Memory Management]] (i.e. victim selection) is in **software**, which is an issue
 	 - Approximation #1
 		 - Small hardware stack
@@ -38,3 +41,8 @@ The baseline algorithm
 4. If the chosen victim's reference bit is set, the manager clears it and moves to the next page frame
 5. The victim is the first page that doesn't have the reference bit set
 6. Start the next search with the page frame after the victim
+
+
+# Victim Selection
+## Global 
+## Local
