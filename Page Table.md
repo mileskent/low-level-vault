@@ -2,6 +2,7 @@ A [[Map]] from [[Virtual Address]] to [[Physical Address]] of Pages, used by the
 $n$ [[Process]]es requires $n$ Page Tables
 Where page tables live in memory:
 ![[Pasted image 20251012222556.png|200]]
+![[Pasted image 20251016211140.png]]
 Use a register PTBR to hold the base physical address of the page table for the currently running process. Put this value in the [[Process Control Block|PCB]]
 ## Demand Paging
 ![[Pasted image 20251014212152.png|400]]
