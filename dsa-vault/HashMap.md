@@ -1,3 +1,8 @@
+---
+aliases:
+  - HashTable
+---
+
 A [[Map]] that uses hashes for its functionality.
 ### Implementations
 ###### Remove

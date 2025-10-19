@@ -6,8 +6,7 @@ aliases:
 When there are multiple programs in [[Memory]], we must ensure processwise memory segregation, resource sharing, and abstraction of resource limitations (through [[Virtual Memory]])
 
 # Memory Broker
-Diagram of a memory broker providing a bridge between physical [[Memory]] and the [[CPU]]. Depending on the functionality of the broker, it can provide eith [[Relocatibility#Dynamically Relocatable|Dynamic Relocation]] or [[Relocatibility#Statically Relocatable|Static Relocation]]
-![[Pasted image 20251005012333.png|400]]
+![[Memory Broker]]
 # Fence Register
 * *Hardware Separation* of user and kernel space
 * Compare requested address to value of the fence register. 

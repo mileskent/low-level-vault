@@ -1,10 +1,9 @@
-The idea of paging is to eliminate [[Fragmentation#External|External Fragmentation]] by storing the memory footprint of a process in discontinuous memory locations called Pages.
+The idea of paging is to eliminate [[Fragmentation#External Fragmentation]] by storing the memory footprint of a process in discontinuous memory locations called Pages.
+However, it has [[Fragmentation#Internal Fragmentation]] because a process will almost always not utilize 100% of its allocated page.
 Then the [[Memory Management#Memory Broker]] can handle maintaining semantics, while enforcing this scheme.
 ![[Pasted image 20251012220055.png|400]] 
 # Page
 Memory block used in paging.
-Bigger pages yield more [[Fragmentation#Internal|Internal Fragmentation]]
-Smaller pages get us a bigger page table and take more CPU time to manage
 All [[Memory]] is divided into pages
 ![[Pasted image 20251012222921.png|200]]
 ![[Pasted image 20251014211700.png|400]]
@@ -13,6 +12,9 @@ Virtual page is a fixed-length block of [[Virtual Memory]] that is mapped to [[P
 ## Page Frame
 A page frame refers to a contiguous block of memory that corresponds to actual storage locations in [[Memory]]
 ## Page Size
+Bigger pages yield more [[Fragmentation#Internal Fragmentation]]
+Smaller pages get us a bigger page table and take more CPU time to manage
+
 * Using a power of 2 allows us to split the virtual address into a *Virtual Page Number* and *Offset* within the page at a bit boundary, without using extra logic
 * If the page size is $2^n$, the lower $n$ bits are the offset and bit $n$ and up are the virtual page number
  e.g. with a 4 kilobyte ($2^{12}$ bit) page size and a 32 bit virtual address space
@@ -47,3 +49,6 @@ Virtual Page Number. Indexes [[#Virtual Page]]s
 
 # Page Fault
 ![[Page Fault]]
+
+# Paging Optimization
+![[kswapd]]

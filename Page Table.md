@@ -3,7 +3,10 @@ $n$ [[Process]]es requires $n$ Page Tables
 Where page tables live in memory:
 ![[Pasted image 20251012222556.png|200]]
 ![[Pasted image 20251016211140.png]]
-Use a register PTBR to hold the base physical address of the page table for the currently running process. Put this value in the [[Process Control Block|PCB]]
+# PTBR
+PTBR holds the base [[Physical Address]] of the current proccess' page table
+* Put this value in the [[Process Control Block|PCB]]
+
 ## Demand Paging
 ![[Pasted image 20251014212152.png|400]]
 If the [[Memory Management#Memory Broker|Broker]] tries to access a Page that is not valid, it will throw a [[Page Fault]]

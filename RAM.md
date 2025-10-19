@@ -1,4 +1,4 @@
-A [[Memory]] device that allows data items to be read or written in essentially the same amount of time irrespective of the physical location of data inside the memory.
+A [[Memory]] device that allows data items to be read or written in essentially the same amount of time irrespective of the physical location of data inside the memory. The RAM for your main memory is [[RAM#DRAM]]
 
 > [!warning]
 The words "memory" and "RAM" may be used interchangably! Keep in mind that they mean different things. See [[Memory]] for more info.
@@ -6,7 +6,7 @@ The words "memory" and "RAM" may be used interchangably! Keep in mind that they 
 # Performance
 ![[Pasted image 20250820195530.png]]
 
-* Modifying memory is SLOW!
+* Accessing (modern) memory is SLOW! 100 times slower than one [[Clock Cycle]]
 * Why would we consider loading values into registers before computing with them?  Doesn’t that use more instructions?
 	* Yes it does, but it saves memory accesses because we can re-use the values
 * You can usually do stuff while accessing memory
@@ -35,8 +35,10 @@ The words "memory" and "RAM" may be used interchangably! Keep in mind that they 
 > \- The Rust Book
 
 # Varieties
+TLDR: *small* or *fast* but not both
 ## DRAM
 Dynamic RAM, typically used as the main [[RAM]] 
+Slower but denser
 * Benefits ✅
 	* Each bit is stored in a cell which only needs a transistor and a capacitor, which is dramatically fewer components than a typical [[Flip Flop]]. 
 		* More bits/cells can be stuffed into a chip
@@ -47,6 +49,7 @@ Dynamic RAM, typically used as the main [[RAM]]
 
 ## SRAM
 Static RAM
+Faster but bulkier
 * Benefits ✅
 	* Uses [[Transistor]]s to store bits like [[Flip Flop]]
 * Drawbacks ❌

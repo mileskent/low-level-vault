@@ -1,0 +1,1 @@
+"Dirty" refers to data that has been modified in [[Memory]] such that it is no longer identical to its source on [[Storage|disk]].

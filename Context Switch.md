@@ -10,3 +10,6 @@
 
 ![[Pasted image 20250927154154.png|400]]
 The scheduler does not call any process to run. Instead it rearranges the PCB queues and then returns to the first out of the queue.
+
+# TLB
+![[Translation Lookaside Buffer#Context Switching]]

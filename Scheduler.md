@@ -19,6 +19,8 @@ Determine whether a [[Program]] should be turned into a [[Process]].
 # Medium Term Scheduler
 Deals with processes that already exist.
 "Can I let you run efficiently? Should I put you on the backburner to let other more efficient processes finish first?"
+Concerned with orchestrating [[Memory Pressure]] & [[Multiprogramming#Goldilocks Multiprogramming]]
+Avoids [[#Thrashing]] and constant [[Page Fault]]ing, i.e. ideal CPU utilization, minimal bottlenecking
 # Short Term Scheduler
 We already know we have enough resources to go around.
 "Who gets to run next?"
@@ -34,7 +36,8 @@ Queue of PCBs that represent the set of memory resident processes that are ready
 Queue of PCBs that represent the set of memory resident processes that are waiting for some I/O operation either to be initiated or completed
 # Thrashing
 A phenomenon wherin the dynamic memory usage of the processes current in the [[#Ready Queue]] exceed the total memory capacity of the system. The system's resources have been overcommitted. The [[#Medium Term Scheduler]] would get involved and evict some [[Process Control Block|PCB]]s out of the Ready Queue. 
-
+![[Pasted image 20251018174033.png|400]]
+See [[Multiprogramming#Goldilocks Multiprogramming]], [[Page Fault]]
 
 # Scheduling Algorithms
 ![[Scheduling Algorithm]]

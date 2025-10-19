@@ -97,5 +97,17 @@ Any one of the instructions in the pipeline can cause a discontinuity.
 		* DRAIN preceding stages
 		* FLUSH subsequent instructions
 
+
+# Virtual Memory
+A pipelined processor with [[Virtual Memory]] will experience major inefficiencies in its naive implementation; Every memory access requires two memory accesses: accessing the page table entry, followed by the actual memory word. This is awful for our pipeline because all memory accesses introduce bubbles. Additionally, there is one bubble for every instruction because we have to access page table entries in our fetch stage.
+![[Paging#Broker]]
+The entire page table is not going to fit in registers. And even if they did, we would have to reload all of them every [[Context Switch]]
+However, we definitely can fit a subset of those entries in registers.
+Putting some entries in a subset register file actually works well due to [[Locality]]. 
+![[Locality]]
+
+Use a [[Translation Lookaside Buffer]] for this subset of the [[Page Table]]
+![[Translation Lookaside Buffer#Usage]]
+
 # See also
 [[Latency]] vs [[Throughput]]

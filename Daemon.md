@@ -1,1 +1,0 @@
-Background [[Operating System|OS]] [[Process]]
