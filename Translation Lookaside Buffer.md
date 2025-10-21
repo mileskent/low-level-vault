@@ -9,6 +9,10 @@ aliases:
 ![[Pasted image 20251018141533.png|400]]
 # Usage
 Use a [[Translation Lookaside Buffer|TLB]] to reduce bubbles. If the TLB hits, we have a fast path and no bubbles.
+* TLB can only hit if
+	* Entry exists
+	* Process has access (user proc can't use kernel entry)
+	* Entry is valid
 If the TLB misses, we have a slow path, bubbles, and the TLB is updated.
 The point of a TLB is anticipating [[Locality]] in [[Program]]s; if a program has poor [[Locality]], then we have poor performance, because the TLB will constantly miss, and we will degenerate into the performance of the naive approach.
 ![[Pasted image 20251018141804.png|400]]
