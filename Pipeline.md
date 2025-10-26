@@ -109,5 +109,10 @@ Putting some entries in a subset register file actually works well due to [[Loca
 Use a [[Translation Lookaside Buffer]] for this subset of the [[Page Table]]
 ![[Translation Lookaside Buffer#Usage]]
 
+# Pipeline with Caches
+Instructions and data have separate caches.
+![[Pasted image 20251026005457.png]]
+
 # See also
 [[Latency]] vs [[Throughput]]
+

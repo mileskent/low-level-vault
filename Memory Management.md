@@ -1,6 +1,8 @@
 ---
 aliases:
   - Memory Brokerage
+  - Virtual Memory Management
+  - Virtual Memory Brokerage
 ---
 
 When there are multiple programs in [[Memory]], we must ensure processwise memory segregation, resource sharing, and abstraction of resource limitations (through [[Virtual Memory]])

@@ -16,6 +16,7 @@ $$
 where $n$ is instruction count
 where Cycles Per Instruction (CPI) is the number of clock cycles per instruction
 where $\text{CPI}_\text{avg} = \frac{\text{inst X count}}{\text{total count}}$
+
 ## Total Execution Time
 Cumulative total of the execution times of the individual programs
 ## Geometric Mean
@@ -110,3 +111,18 @@ We have a computer with three types of instructions that have the following CPIs
 > \end{align}
 > $$
 The maximum permissible slowdown is about 9%
+
+
+# Performance with Caches
+$$
+\text{Execution Time} = n \cdot \text{CPI}_{\text{effective}} \cdot \text{cycle time}
+$$
+$$
+\text{CPI}_{\text{effective}} = \text{CPI}_{\text{avg}} + \text{Memory Stalls}_{\text{avg}}
+$$
+$$
+\text{Memory Stalls}_{\text{avg}} = \text{misses per instr}_{\text{avg}} \cdot \text{miss penalty}_{\text{avg}}
+$$
+$$
+\text{Total Memory Stalls} = N \cdot \text{Memory Stalls}_{\text{avg}}
+$$
