@@ -1,0 +1,1 @@
+Enables a [[Thread]] to wait for a condition to become true without consuming processor cycles (without Busy Waiting)

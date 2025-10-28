@@ -8,13 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b984547b4cc922ff",
+            "id": "9f6079810d40993f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "image",
+              "state": {
+                "file": "res/Pasted image 20251028164139.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20251028164139"
             }
           }
         ]
@@ -49,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "working set",
+                "query": "pthread",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,12 +167,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "b984547b4cc922ff",
+  "active": "32e428eeb1c175c5",
   "lastOpenFiles": [
-    "res/Pasted image 20251028144353.png",
+    "res]",
+    "Condition Variable.md",
+    "pthread.md",
+    "Deadlock.md",
+    "Lock.md",
+    "Critical Section.md",
+    "Spinlock.md",
+    "Mutex.md",
     "Multithreading.md",
-    "Thread.md",
+    "Race Condition.md",
+    "Data Race.md",
     "C++ Multithreading.md",
+    "res/Pasted image 20251028164541.png",
+    "res/Pasted image 20251028164139.png",
+    "Thread.md",
+    "Condition Code.md",
+    "inode.md",
+    "res/Pasted image 20251028144353.png",
     "Translation Lookaside Buffer.md",
     "Caching.md",
     "Paging.md",
@@ -185,23 +201,10 @@
     "res/Pasted image 20251028151907.png",
     "Replacement Algorithm.md",
     "Virtual Memory.md",
-    "res/Pasted image 20251025232621.png",
-    "res/Pasted image 20251026012931.png",
     "Performance.md",
     "Pipeline.md",
     "Addressability.md",
     "Address.md",
-    "Address Space.md",
-    "Memory Management.md",
-    "dsa-vault/Memoization.md",
-    "Effective Memory Access Time.md",
-    "Tiered Memory.md",
-    "Discontinuities.md",
-    "systemd.md",
-    "kswapd.md",
-    "init system.md",
-    "daemon.md",
-    "Segmented Virtual Memory.md",
     "meta/cs2200",
     "meta",
     "TCP"

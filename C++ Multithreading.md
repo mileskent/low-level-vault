@@ -1,4 +1,4 @@
-Need to link against `pthread`
+Need to link against [[pthread]]
 [std::thread](https://en.cppreference.com/w/cpp/thread/thread.html) represents a [[Thread]]
 [std::tread::join](https://en.cppreference.com/w/cpp/thread/thread/join.html) will wait until the thread it is called on is finished
 
