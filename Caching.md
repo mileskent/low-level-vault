@@ -13,26 +13,62 @@ The [[Virtual Memory]] mention on [[Storage|secondary storage]] is referring to 
 
 ![[Locality]]
 
+
+# Working Set
+Which addresses show up in the cache when a [[Process]] runs?
+
+# Context Switch
+We do nothing. This is because we're using [[Physical Address]]es, unlike the [[Translation Lookaside Buffer|TLB]]
+
+# Flushing
+The cache must be flushed upon OS bringing in [[Paging#Page]] from [[Storage|disk]] and bypassing the cache, because if I/O bypasses the cache, any cache entries reference the I/O buffer will be invalid.
+
+# Virtually Indexed Physically Tagged Cached
+(Cache & [[Translation Lookaside Buffer|TLB]] accessed in parallel)
+If you make the page offset the same bitsize as the index + block offset size, then you can start the cache read without waiting for the TLB.
+![[Pasted image 20251028154708.png]]
+The tradeoff is that the index determines the max size of the cache, limiting the size of the cache.
 # Cache Organization
-![[Pasted image 20251026012931.png|400]]
+Cache... line = block = entry = element
+* Cache Set: a "row" in the cache. The number of blocks per set is determined by the type of set.
+	* DMC: n sets, 1 entry
+	* P-way set associative: n/p sets, p entries
+	* Fully associative: 1 set, n entries
+![[Pasted image 20251028152235.png|400]]
 
 ## Direct Mapped Cache
+* Any potential memory block only has one valid location in the cache. Least hardware complexity. Least flexible.
 * For a $2^N$ size cache, the *index* into the cache is the last $N$ bits of the memory address. Hence, this kind of cache is called a direct cache, because you just perform modulus base cachesize to map the memory space into the cache space.
 	* We use the last $N$ bits, because if we use the first $N$ bits, we will wreck our spatial locality
 * The *tag* is remaining part of the memory address that isn't being used for the cache index. We use the tag to label and disambiguate the data in the cache.
 * The *Valid Bit* indicates is the given entry is filled or garbage
+![[Pasted image 20251026012931.png|400]]
 ![[Pasted image 20251026000450.png|400]]
 ![[Pasted image 20251026003655.png|400]]
 * Benefits from both [[Locality#Spatial Locality]] and [[Locality#Temporal Locality]]
+* Can cause inefficienct use of cache with overlapping [[#Working Set]]s
+* There is an optimal zone for the size of the cache blocks, striking the balances between exploiting Spatial Locality and memory transfer of updating the working set becoming a bottleneck
+	
 
 In a realistic memory system, the size of a word, and the precision of addressability might not be the same. In this case, you would just some of the last bits, where those bits encode addresses in the same memory word.
 ![[Pasted image 20251026004647.png|300]]
 
 
 ## Fully Associative Cache
-#todo
+Any memory block can be place in any cache line. Most flexible.
+Because a block can go anywhere, the cache uses a [[Replacement Algorithm]] to decide where the block should go
+There is no notion of tag and index; the entire thing is a tag. This is because any address. There is still a block offset like the other organizations.
+![[Pasted image 20251028144353.png|400]]
+Requires more hardware complexity because it needs a word-sized comparator for every cache entry
+
+Hit/Miss determined with a comparator per cache entry that inspects the tag. It also requires the entry to be valid.
+![[Pasted image 20251028151907.png|400]]
 ## Set Associative Cache
-#todo
+Compromise between DMC and FAC. DMC and FAC are really just degenerate cases of SAC. DMC is 1-way SAC. FAC is N-way SAC.
+4-way SAC. Really just 4 DMCs connected together.
+![[Pasted image 20251028152846.png|400]]
+2-Way SAC only needs one bit per entry for LRU.
+For N-way SAC you need $\log_{2}(N!)$ bits per entry for LRU.
 
 # Misses
 > [!warning] Super Important Nuance!

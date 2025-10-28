@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7c8169cc781d7e21",
+        "id": "8f265c2f2befff58",
         "type": "tabs",
         "children": [
           {
-            "id": "af42057f2cd1c292",
+            "id": "b984547b4cc922ff",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "res/Pasted image 20251025232621.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251025232621"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -51,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dirty",
+                "query": "working set",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,43 +165,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "32e428eeb1c175c5",
+  "active": "b984547b4cc922ff",
   "lastOpenFiles": [
+    "res/Pasted image 20251028144353.png",
+    "Multithreading.md",
+    "Thread.md",
+    "C++ Multithreading.md",
+    "Translation Lookaside Buffer.md",
     "Caching.md",
+    "Paging.md",
+    "Memory.md",
+    "Interleaved Memory.md",
+    "res/Pasted image 20251028160056.png",
+    "res/Pasted image 20251028155749.png",
+    "res/Pasted image 20251028155055.png",
+    "res/Pasted image 20251028154708.png",
+    "res/Pasted image 20251028152846.png",
+    "res/Pasted image 20251028152235.png",
+    "res/Pasted image 20251028151907.png",
+    "Replacement Algorithm.md",
+    "Virtual Memory.md",
+    "res/Pasted image 20251025232621.png",
     "res/Pasted image 20251026012931.png",
-    "res/Pasted image 20251026012727.png",
     "Performance.md",
-    "res/Pasted image 20251026010400.png",
-    "res/Pasted image 20251026010140.png",
     "Pipeline.md",
-    "res/Pasted image 20251026005457.png",
     "Addressability.md",
     "Address.md",
     "Address Space.md",
-    "res/Pasted image 20251026004647.png",
-    "res/Pasted image 20251026003655.png",
-    "res/Pasted image 20251026000450.png",
-    "res/Pasted image 20251025235902.png",
-    "res/Pasted image 20251025235838.png",
     "Memory Management.md",
     "dsa-vault/Memoization.md",
     "Effective Memory Access Time.md",
     "Tiered Memory.md",
-    "Translation Lookaside Buffer.md",
     "Discontinuities.md",
     "systemd.md",
     "kswapd.md",
     "init system.md",
     "daemon.md",
     "Segmented Virtual Memory.md",
-    "Physical Memory.md",
-    "Paged Segmentation.md",
-    "Multiprogramming.md",
-    "Memory Pressure.md",
-    "Memory Broker.md",
-    "Locality.md",
-    "Dirty.md",
-    "Page Replacement Algorithms.md",
     "meta/cs2200",
     "meta",
     "TCP"

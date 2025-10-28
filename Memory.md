@@ -13,3 +13,8 @@ Memory refers to the components that store data and instructions for immediate o
 			* DDR4
 			* DDR5
 * [[ROM]]
+* [[Caching|Cache]]
+	* L1 Cache
+	* L2 Cache
+	* L3 Cache
+* [[Register]]s

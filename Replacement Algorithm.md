@@ -1,3 +1,9 @@
+---
+aliases:
+  - Page Replacement Algorithms
+---
+
+An algorithm to decide what entry to be evicted in a table.
 An [[Algorithm]] to decide which [[Paging#Page]] to replace in [[Memory]]
 
 
