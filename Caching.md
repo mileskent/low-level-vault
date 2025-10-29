@@ -4,6 +4,8 @@ aliases:
 ---
 Ephermeral holding of data for the purpose of expediting future accesses. In this entry, the cache exists as hardware. For more algorithmic notions of caching, look at [[Memoization]].
 
+When a CPU needs to access a physical address, the access to main memory is preceeded by an access to some cache. If there is a cache hit (the memory address and its contents are cached), then we save time by not needing to perform a [[RAM#Performance|slow memory access]] 
+
 Typical memory organization, including [[CPU]] caches.
 Increasing speed as we get closer to CPU, but with smaller capacity.
 The [[Virtual Memory]] mention on [[Storage|secondary storage]] is referring to the [[Swap Space]] part of [[Memory Management|Virtual Memory Management]]
@@ -23,13 +25,13 @@ We do nothing. This is because we're using [[Physical Address]]es, unlike the [[
 # Flushing
 The cache must be flushed upon OS bringing in [[Paging#Page]] from [[Storage|disk]] and bypassing the cache, because if I/O bypasses the cache, any cache entries reference the I/O buffer will be invalid.
 
-# Virtually Indexed Physically Tagged Cached
+# Virtually Indexed Physically Tagged Cache
 (Cache & [[Translation Lookaside Buffer|TLB]] accessed in parallel)
 If you make the page offset the same bitsize as the index + block offset size, then you can start the cache read without waiting for the TLB.
 ![[Pasted image 20251028154708.png]]
 The tradeoff is that the index determines the max size of the cache, limiting the size of the cache.
 # Cache Organization
-Cache... line = block = entry = element
+Cache... line = block = entry = element = one unit of cached data stored in the cache
 * Cache Set: a "row" in the cache. The number of blocks per set is determined by the type of set.
 	* DMC: n sets, 1 entry
 	* P-way set associative: n/p sets, p entries
@@ -69,6 +71,8 @@ Compromise between DMC and FAC. DMC and FAC are really just degenerate cases of 
 ![[Pasted image 20251028152846.png|400]]
 2-Way SAC only needs one bit per entry for LRU.
 For N-way SAC you need $\log_{2}(N!)$ bits per entry for LRU.
+Index bits tell you which row (set) to look in, and then you have to look through all of the DMC (ways) to check for the entry
+Cache entries have their row (set) determined DMC style, and then which DMC they are in (way) determined FAC style
 
 # Misses
 > [!warning] Super Important Nuance!

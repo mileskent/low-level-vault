@@ -43,13 +43,7 @@ Page Frame Number. Indexes [[#Page Frame]]s.
 Virtual Page Number. Indexes [[#Virtual Page]]s
 
 # Page Coloring
-The OS guarantees that some bit of the VPN will remain unchanged through address translation, i.e. the low bits of the VPN and PFN are identical
-The low bits are like a color. The color of the virtual address must match the color of the physical addre4ss.
-This means that a virtual page can only occupy a subset of page frames in which the low bits of the VPN match the low bits of the PFN.
-[[Replacement Algorithm|Page Replacement Algorithms]] has to keep track of this.
-It could be harded to fit a working set into physical memmory, but it's often fine because processes tend to use continguous pages, so the VPNs of the pages are spread evenly amoung the colors.
-![[Pasted image 20251028155055.png|600]]
-
+![[Page Coloring]]
 # Page Table
 ![[Page Table]]
 # Broker
