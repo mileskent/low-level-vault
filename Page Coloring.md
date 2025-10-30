@@ -6,12 +6,12 @@ aliases:
 The OS guarantees that some bit of the VPN will remain unchanged through address translation, i.e. the low bits of the VPN and PFN are identical
 The low bits are like a color. The color of the virtual address must match the color of the physical address.
 This means that a virtual page can only occupy a subset of page frames in which the low bits of the VPN match the low bits of the PFN.
-![[Pasted image 20251029123702.png|400]]
 [[Replacement Algorithm|Page Replacement Algorithms]] has to keep track of this.
 It could be harded to fit a working set into physical memmory, but it's often fine because processes tend to use continguous pages, so the VPNs of the pages are spread evenly amoung the colors.
+(VPN and PFN happen to be the same size here)
 ![[Pasted image 20251028155055.png|600]]
 ![[Pasted image 20251029122225.png|400]]
-
+![[Pasted image 20251029123702.png|400]]
 # Example
 > [!Question]- size(Colored Bits)
 > - 64-bit virtual address

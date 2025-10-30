@@ -25,11 +25,24 @@ We do nothing. This is because we're using [[Physical Address]]es, unlike the [[
 # Flushing
 The cache must be flushed upon OS bringing in [[Paging#Page]] from [[Storage|disk]] and bypassing the cache, because if I/O bypasses the cache, any cache entries reference the I/O buffer will be invalid.
 
+# Physically Indexed Physically Tagged Cache
+The normal way 🙂
+Requires TLB lookup, followed by cache access: 2 accesses
 # Virtually Indexed Physically Tagged Cache
-(Cache & [[Translation Lookaside Buffer|TLB]] accessed in parallel)
+Cache & [[Translation Lookaside Buffer|TLB]] accessed in parallel: 1 access (2 in parallel)
 If you make the page offset the same bitsize as the index + block offset size, then you can start the cache read without waiting for the TLB.
 ![[Pasted image 20251028154708.png]]
 The tradeoff is that the index determines the max size of the cache, limiting the size of the cache.
+
+# Metadata
+Anything in a cache entry that is not the value at the memory address.
+## Overhead
+$$
+\text{Overhead} = \frac{\text{size}(\text{Metadata})}{\text{size}(\text{Total})}
+$$
+## LRU
+For $N$ ways, there are $N!$ possible orderings. However many bits we need to store $N!$ is the size of the bits that keep track of the ordering.
+
 # Cache Organization
 Cache... line = block = entry = element = one unit of cached data stored in the cache
 * Cache Set: a "row" in the cache. The number of blocks per set is determined by the type of set.
