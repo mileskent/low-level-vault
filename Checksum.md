@@ -1,0 +1,1 @@
+A checksum is a small-sized block of data derived from a larger block of digital data, used to detect errors that may occur during transmission or storage. It helps verify data integrity but is not sufficient for confirming data authenticity.

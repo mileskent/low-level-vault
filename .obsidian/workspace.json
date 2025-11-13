@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "aaa1ff37196c6fdd",
+        "id": "292a25775313eeb6",
         "type": "tabs",
         "children": [
           {
-            "id": "8b72ab4f74fbf831",
+            "id": "119bf14284d2a4f1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "image",
+              "state": {
+                "file": "res/Pasted image 20251113133326.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20251113133326"
             }
           }
         ]
@@ -49,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "network node",
+                "query": "Arbitrary messag",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,42 +168,43 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "8b72ab4f74fbf831",
+  "active": "cfffa2099d3f85b3",
   "lastOpenFiles": [
-    "res/Pasted image 20251113132803.png",
+    "Network.md",
     "IP.md",
-    "res/Pasted image 20251113132759.png",
-    "res/Pasted image 20251113132753.png",
-    "res/Pasted image 20251113132745.png",
-    "Protocol Stack.md",
-    "Department of Defense Model.md",
+    "Subnet.md",
+    "AND.md",
+    "AND Gate.md",
+    "Payload.md",
+    "Open Systems Interconnection Model.md",
+    "Transmission Control Protocol.md",
+    "Encapsulation.md",
+    "res/Pasted image 20251113141423.png",
+    "Protocol Data Unit.md",
+    "SSH.md",
+    "res/Pasted image 20251113140827.png",
+    "res/Pasted image 20251113140823.png",
+    "res/Pasted image 20251113140820.png",
     "Packet.md",
+    "res/Pasted image 20251113140633.png",
+    "User Datagram Protocol.md",
+    "TCP.md",
+    "Sliding Window Protocol.md",
+    "res/Pasted image 20251113135515.png",
+    "Stop and Wait Protocol.md",
+    "Protocol Stack.md",
+    "Checksum.md",
+    "Go Back N.md",
+    "Bitrot.md",
+    "res/Pasted image 20251113134751.png",
+    "res/Pasted image 20251113134619.png",
+    "res/Pasted image 20251113134525.png",
     "Packet Switched Network.md",
-    "res/Pasted image 20251113132209.png",
-    "res/Pasted image 20251113120610.png",
+    "res/Pasted image 20251113133717.png",
+    "Department of Defense Model.md",
     "Port.md",
     "Twisted Pair Cable.md",
     "Multiplexing.md",
-    "Wavelength Division Multiplexing.md",
-    "Interference.md",
-    "Broadband.md",
-    "Cable.md",
-    "Multimode Fiber.md",
-    "Single-mode Fiber.md",
-    "Twinaxial Cable.md",
-    "Coaxial Cable.md",
-    "Firewall.md",
-    "Loss.md",
-    "Attenuation.md",
-    "Voice Gateway.md",
-    "Voice over IP.md",
-    "Wireless LAN Controller.md",
-    "Load Balancer.md",
-    "Loader.md",
-    "Load Balancing.md",
-    "Pasted image 20251113120412.png",
-    "res/Pasted image 20251113120424.png",
-    "res/Pasted image 20251113113545.png",
-    "res/Pasted image 20251113113510.png"
+    "Wavelength Division Multiplexing.md"
   ]
 }
