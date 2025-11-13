@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "df02aba384eb27bb",
+        "id": "aaa1ff37196c6fdd",
         "type": "tabs",
         "children": [
           {
-            "id": "603994217659e46e",
+            "id": "8b72ab4f74fbf831",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pipeline",
+                "query": "network node",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nonuniform Memory Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Nonuniform Memory Architecture"
+              "title": "Backlinks"
             }
           },
           {
@@ -167,40 +166,42 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "cfffa2099d3f85b3",
+  "active": "8b72ab4f74fbf831",
   "lastOpenFiles": [
-    "Symmetric Multiprocessing.md",
-    "Replacement Algorithm.md",
-    "Pipeline.md",
-    "meta/cs2200/m2.md",
-    "Nonuniform Memory Architecture.md",
-    "PCIe.md",
-    "Uniform Memory Architecture.md",
-    "res/Pasted image 20251113111508.png",
-    "res/Pasted image 20251113110753.png",
-    "res/Pasted image 20251113110651.png",
-    "res/Pasted image 20251113110646.png",
-    "Multithreading.md",
-    "SMP model.md",
-    "res/Pasted image 20251113105800.png",
-    "res/Pasted image 20251113105436.png",
-    "Context Switch.md",
-    "Translation Lookaside Buffer.md",
-    "res/Pasted image 20251113101058.png",
-    "x86.md",
-    "IBM 370.md",
-    "Discontinuities.md",
-    "LC 2200.md",
-    "Core.md",
-    "Thread.md",
-    "Critical Section.md",
-    "Atomic.md",
-    "Arena.md",
-    "Assembler.md",
-    "Instruction Register.md",
-    "Immediate.md",
-    "Machine Code.md",
-    "Instruction.md",
-    "ASCII.md"
+    "res/Pasted image 20251113132803.png",
+    "IP.md",
+    "res/Pasted image 20251113132759.png",
+    "res/Pasted image 20251113132753.png",
+    "res/Pasted image 20251113132745.png",
+    "Protocol Stack.md",
+    "Department of Defense Model.md",
+    "Packet.md",
+    "Packet Switched Network.md",
+    "res/Pasted image 20251113132209.png",
+    "res/Pasted image 20251113120610.png",
+    "Port.md",
+    "Twisted Pair Cable.md",
+    "Multiplexing.md",
+    "Wavelength Division Multiplexing.md",
+    "Interference.md",
+    "Broadband.md",
+    "Cable.md",
+    "Multimode Fiber.md",
+    "Single-mode Fiber.md",
+    "Twinaxial Cable.md",
+    "Coaxial Cable.md",
+    "Firewall.md",
+    "Loss.md",
+    "Attenuation.md",
+    "Voice Gateway.md",
+    "Voice over IP.md",
+    "Wireless LAN Controller.md",
+    "Load Balancer.md",
+    "Loader.md",
+    "Load Balancing.md",
+    "Pasted image 20251113120412.png",
+    "res/Pasted image 20251113120424.png",
+    "res/Pasted image 20251113113545.png",
+    "res/Pasted image 20251113113510.png"
   ]
 }

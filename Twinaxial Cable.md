@@ -1,0 +1,1 @@
+a copper-based [[Bounded Media]] consisting of two insulated copper cores surrounded by a conducting shield

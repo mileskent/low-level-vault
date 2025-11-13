@@ -1,0 +1,1 @@
+a telecommunications service delivering high-speed [[Internet]] access using a customer-specific leased connection

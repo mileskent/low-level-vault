@@ -1,0 +1,1 @@
+an information field added before a piece of data before transmission

@@ -1,0 +1,1 @@
+a [[Network Node|Node]] that accesses a network resource from a [[Server]], but does not share network resources with other clients

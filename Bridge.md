@@ -1,0 +1,3 @@
+a legacy [[Networking Device]] used as a central [[Network Node|Node]] providing connectivity to two network segments. A bridge uses the destination [[MAC Address]] contained in a frame to determine where to transmit a payload. 
+A bridge is considered a legacy device because a bridge has only two physical connection points, or ports. 
+Bridges are the predecessor to [[Switch]]es ([[Open Systems Interconnection Model#Data Link Layer]])

@@ -1,0 +1,1 @@
+a [[Network Protocol]] used by a [[Router]] to determine the most efficient route to a destination [[Network]]

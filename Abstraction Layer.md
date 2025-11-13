@@ -1,0 +1,1 @@
+A layer of the [[Open Systems Interconnection Model|OSI Model]]

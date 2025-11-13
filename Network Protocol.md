@@ -1,0 +1,1 @@
+a set of rules specifying how data is formatted, processed, and transmitted between devices on a [[Network]]

@@ -1,0 +1,1 @@
+either a hardware device or software service used to convert telephony into digital packets for transmission via [[Voice over IP|VoIP]]. ([[Open Systems Interconnection Model#Transport Layer]])

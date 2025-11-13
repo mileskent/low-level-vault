@@ -1,0 +1,1 @@
+How a [[Service Provider]]'s medium enters a customer's premises

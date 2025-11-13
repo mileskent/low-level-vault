@@ -1,0 +1,1 @@
+data [[Encapsulation|encapsulated]] with every [[Abstraction Layer]]'s [[Header]] or [[Trailer]]; The recipient of a payload must remove any headers or trailers to properly process the original data ([[Encapsulation#Decapsulation]])

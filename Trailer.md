@@ -1,0 +1,1 @@
+an information field added to the end of data before transmission

@@ -1,0 +1,1 @@
+a [[Network]] where the network parts, or planes, are configured to break down data into smaller pieces, or [[Packet]]s, for transmission using any available link

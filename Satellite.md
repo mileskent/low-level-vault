@@ -1,0 +1,1 @@
+a telecommunications service delivering high-speed [[Internet]] access using low-earth orbit (LEO) satellites and a dish at a customer's location

@@ -1,0 +1,1 @@
+a communication method whereby all the available bandwidth is shared by multiple transmissions. Two coaxial media types are used to deliver both digital cable television and internet services:

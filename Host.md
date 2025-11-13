@@ -1,0 +1,1 @@
+A computer connected to a [[Network]]

@@ -1,0 +1,1 @@
+a transmission's loss of strength

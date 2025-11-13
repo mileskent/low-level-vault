@@ -1,0 +1,1 @@
+A firewall is a system designed to prevent unauthorized access to or from a private [[Network]], some of the functionalities of firewall are, packet filtering and as a proxy server. It controls inbound and outbound traffic based on a set of rules.

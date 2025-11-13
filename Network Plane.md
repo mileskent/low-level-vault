@@ -1,0 +1,1 @@
+A [[Control Plane]], [[Data Plane]], or [[Management Plane]]. A logical entity that encapsulates some aspect of [[Network]] operations.

@@ -1,0 +1,1 @@
+An overlay [[Network]] is a logical network that is created on top of an existing physical network, using virtual links or tunnels between nodes to control how data is routed and managed independently of the underlying infrastructure.
