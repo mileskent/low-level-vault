@@ -1,1 +1,1 @@
-#todo
+Translates [[Assembly]] into [[Machine Code]]

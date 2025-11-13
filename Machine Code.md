@@ -1,0 +1,1 @@
+0s and 1s that the machine understands that go into the [[Instruction Register]], from which the [[Opcode]] and other arguments and [[Immediate]]s are parsed.

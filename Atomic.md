@@ -1,0 +1,2 @@
+An action that has multiple effects, but only one invocation, and a granularity of the finest kind.
+e.g. [[Discontinuities#RETI]] *atomically* restores the [[Program Counter|PC]] & restores the mode & restores the [[Stack]] pointer & [[Discontinuities#Interrupt Enable (IE)|enables interrupts]]. It does this, so it itself cannot be interrupted in between any of these steps, clobbering the $k0 register, and making it impossible to return to the pre-interrupt location of PC.

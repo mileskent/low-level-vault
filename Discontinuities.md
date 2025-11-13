@@ -1,3 +1,8 @@
+---
+aliases:
+  - Interrupt
+---
+
 ![[Pasted image 20250911121949.png|400]]
 > When a discontinuity occurs, it must be handled. This is managed at the [[Microarchitecture]] level
 
@@ -78,6 +83,10 @@ If a device isn't interrupting, it passes through the INT signal, else it assert
 ## RETI
 return from exception/trap/interrupt
 atomically enables interrupts and sets the PC to return from the handler 
+* PC = $k0
+* mode = pop mode from kernel stack
+* user mode ? SSP = $sp, $sp = USP
+* enable interrupts
 
 # [[LC3]]
 Handled by

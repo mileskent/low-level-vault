@@ -1,89 +1,206 @@
 {
   "main": {
-    "id": "30a64d9d903a8d1c",
+    "id": "46cd12817be71470",
     "type": "split",
     "children": [
       {
-        "id": "eafa71be58a630a2",
+        "id": "df02aba384eb27bb",
         "type": "tabs",
         "children": [
           {
-            "id": "a54df335605f6eab",
+            "id": "603994217659e46e",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
               "title": "New tab"
-        "id": "a8750029f7babf4d",
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e79d62b8d83bd9eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf040837213f7d81",
         "type": "tabs",
         "children": [
           {
-            "id": "bdd25b43f1c032ac",
+            "id": "cfffa2099d3f85b3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "file-explorer",
               "state": {
-                "file": "res/Pasted image 20251029122225.png"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251029122225"
-  "active": "32e428eeb1c175c5",
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4302a5867c83caf0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "pipeline",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "dc71f2e3ba0ff195",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6eb95c6d33ca4ffe",
+    "type": "split",
+    "children": [
+      {
+        "id": "20188e1b6530757e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28bc64ba58f54a9d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Nonuniform Memory Architecture.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Nonuniform Memory Architecture"
+            }
+          },
+          {
+            "id": "58fb0c533b38e8b7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Nonuniform Memory Architecture.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Nonuniform Memory Architecture"
+            }
+          },
+          {
+            "id": "8399040998bec0a1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "53526ce898bfd3bd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Nonuniform Memory Architecture.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Nonuniform Memory Architecture"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
+    }
+  },
+  "active": "cfffa2099d3f85b3",
   "lastOpenFiles": [
-    "Multithreading.md",
-    "Thread.md",
-    "res/Pasted image 20251101173608.png",
-    "res/Pasted image 20251101173000.png",
-    "res/Pasted image 20251101172429.png",
-    "res/Pasted image 20251101172024.png",
-    "res/Pasted image 20251101171937.png",
-    "res/Pasted image 20251101142054.png",
-    "Memory Management.md",
-    "Caching.md",
-    "Page Coloring.md",
->>>>>>> 678fb223bc4e2a1c74c12f9fa263d7957ac657d5
-    "Memory.md",
-    "Virtual Address.md",
-    "Memory Pressure.md",
-    "res/Pasted image 20251029123702.png",
-    "RAM.md",
-<<<<<<< HEAD
-    "Pasted image 20251029122225.png",
-=======
-    "res/Pasted image 20251029122225.png",
-    "Paging.md",
->>>>>>> 678fb223bc4e2a1c74c12f9fa263d7957ac657d5
-    "res/Pasted image 20251028164139.png",
-    "res]",
-    "Condition Variable.md",
-    "pthread.md",
-    "Deadlock.md",
-    "Lock.md",
-    "Critical Section.md",
-    "Spinlock.md",
-    "Mutex.md",
-<<<<<<< HEAD
-    "Multithreading.md",
-    "res/Pasted image 20251028164541.png",
-    "res/Pasted image 20251028144353.png",
-    "res/Pasted image 20251028160056.png",
-    "res/Pasted image 20251028155749.png",
-    "res/Pasted image 20251028155055.png",
-    "res/Pasted image 20251028154708.png",
-    "res/Pasted image 20251028152846.png",
-=======
-    "Race Condition.md",
-    "Data Race.md",
-    "C++ Multithreading.md",
-    "res/Pasted image 20251028164541.png",
-    "Condition Code.md",
-    "inode.md",
-    "Translation Lookaside Buffer.md",
-    "Interleaved Memory.md",
+    "Symmetric Multiprocessing.md",
     "Replacement Algorithm.md",
->>>>>>> 678fb223bc4e2a1c74c12f9fa263d7957ac657d5
-    "meta/cs2200",
-    "meta",
-    "TCP"
+    "Pipeline.md",
+    "meta/cs2200/m2.md",
+    "Nonuniform Memory Architecture.md",
+    "PCIe.md",
+    "Uniform Memory Architecture.md",
+    "res/Pasted image 20251113111508.png",
+    "res/Pasted image 20251113110753.png",
+    "res/Pasted image 20251113110651.png",
+    "res/Pasted image 20251113110646.png",
+    "Multithreading.md",
+    "SMP model.md",
+    "res/Pasted image 20251113105800.png",
+    "res/Pasted image 20251113105436.png",
+    "Context Switch.md",
+    "Translation Lookaside Buffer.md",
+    "res/Pasted image 20251113101058.png",
+    "x86.md",
+    "IBM 370.md",
+    "Discontinuities.md",
+    "LC 2200.md",
+    "Core.md",
+    "Thread.md",
+    "Critical Section.md",
+    "Atomic.md",
+    "Arena.md",
+    "Assembler.md",
+    "Instruction Register.md",
+    "Immediate.md",
+    "Machine Code.md",
+    "Instruction.md",
+    "ASCII.md"
   ]
 }

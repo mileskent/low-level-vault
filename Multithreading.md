@@ -2,12 +2,58 @@ Using multiple [[Thread|threads]] for one [[Process]]
 ![[Pasted image 20250927151239.png|200]]
 Each thread requires its own stack.
 ![[Pasted image 20251101172429.png|400]]
-
+[[Page Table]], [[Translation Lookaside Buffer|TLB]], and [[Caching|Cache]] usage all works the same under multithreading.
 
 # Thread Synchronization
 Synchronization is the war against [[Race Condition]]s
-[[Mutex]]
-[[Condition Variable]]
+Handled by [[Mutex]]es and [[Condition Variable]]s.
+
+Mutex implementation with [[#Atomic Read-Modify-Write Instruction]]. Thread-safe.
+```
+int mutex(int * lock) {
+	int X;
+	X = test_and_set(lock);
+	return X;
+}
+```
+
+ ```
+ lock {
+ 	while (test_and_set(&mem_lock)) block the thread
+ }
+ unlock { mem_lock = 0 }
+ ```
+
+> [!warning] Naive Approach (Not Thread-safe)
+> ```
+> lock {
+> 	while (mem_lock != 0) block the thread
+> 	mem_lock = 1
+> }
+> unlock { mem_lock = 0 }
+> ```
+> 
+> However, we have to be careful about the implementation of our Mutexes, in order to guarantee synchronization. What if our mutexes have a race conditions? Imagine an [[Discontinuities|Interrupt]] occurs in the middle of our mutex logic, and we [[Context Switch]] to another [[Process]]. ***Fuck***.
+> 
+> This breaks the logical behavior of our mutexes, because they aren't [[Atomic]]. This is essentially a [[Critical Section]], but we can't guard it with mutexes, because we are implementing Mutexes as the [[Operating System|OS]]. This issue could lead to multiple mutexes simulataneously acquiring the same lock. NOT GOOD! 
+> 
+> The classic solution when we have an issue where something needs to be atomic, is to add an [[Instruction]] to the [[Instruction Set Architecture|ISA]], and have [[Hardware]] make that instruction atomic for us! Just like [[Discontinuities#RETI]]. 
+> 
+> (FYI [[ARM]] and [[MIPS]] use 2 instructions one that allows only the next instruction to touch a particular memory location (Load Linked), and the second instruction that touches that memory location (Store Conditional), but having an atomic instruction is the easiest way). 
+## Atomic Read-Modify-Write Instruction
+### TEST-AND-SET
+`TEST-AND-SET <mem-location>`
+* Load current value in \<mem-location\>
+* Store 1 in \<mem-location\>
+
+This allows us to:
+* Test the lock and set it to 1
+* If the lock tested originally as 0, we acquired it
+* Else, we did not acquire it
+
+![[Symmetric Multiprocessing#Thread Synchronization]]
+
+This is like COMPARE-AND-SWAP on [[IBM 370]], FETCH-AND-ADD on [[x86|Intel x86]], Load-Linked +  Store Conditional on MIPS and ARM.
 
 # Thread Communication
 Accomplish through software by keeping all threads in the same address space by the OS
@@ -65,6 +111,9 @@ This is not the norm.
 * Blocking Call by a thread blocks the entire process :(, because we are just simulating threads and don't actually have true [[Concurrency]] capabilities, only fake interleaved pseudo concurrency
 	* Can be avoided by added a handler for "upcall" that is registered with the [[Operating System|OS]], giving the thread library an opportunity to schedule some other thread
 
+
+# Symmetric Multiprocessing
+![[Symmetric Multiprocessing]]
 
 # See Also
 [[C++ Multithreading]]

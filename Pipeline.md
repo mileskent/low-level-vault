@@ -1,4 +1,29 @@
 Specifically [Instruction Pipelining](https://en.wikipedia.org/wiki/Instruction_pipelining). Pipelines are just an abstract technique.
+
+5 Stages of a Pipeline
+ 1. IF (Instruction Fetch)
+ 2. ID/RR (Instruction Decode / Reset Register)
+ 3. EX (Execute)
+ 4. MEM (Memory Access)
+ 5. WB (Write Back)
+ 
+ Responsibilities of Each Stage
+ 1. IF - fetch instruction in IR and increment PC
+ 2. ID/RR - decode and read register contents
+ 3. EX - performan arithmetic/logic if needed, address computation if needed
+ 4. MEM - fetch/store memory operand if needed
+ 5. WB - write to register if needed
+
+The opcode is passed through ALL buffers because it encodes what the appropriate datapath actions are for next stage
+It is stored at the beginning of ALL buffers
+![[Pasted image 20251007165740.png|400]]
+
+| Buffer | Who's Output? | Contents                                                                                                                              |
+| ------ | ------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| FBUF   | IF            | Essentially contains the IR                                                                                                           |
+| DBUF   | ID/RR         | Decoded IR and values read from<br>register file                                                                                      |
+| EBUF   | EX            | Primarily contains result of ALU<br>operation plus other parts of the<br>instruction depending on the<br>instruction specifics        |
+| MBUF   | MEM           | Same as EBUF if instruction is not<br>LW or SW; If instruction is LW,<br>then buffer contains the contents<br>of memory location read |
 # Bill's Sandwich Shop Analogy
 The figure is an analogy for a pipeline. As opposed to one worker making all sandwiches, tasks are delegated as one task per employee. Each employee hands off their current sandwich down the line, along with an order form. In this organization, all stations will fill up, and there will be one sandwich per cycle instead of per 5 cycles. Another analogy for what this is like is a hose. You turn on the faucet and after a brief while, you get a continous stream of water.
 ![[Pasted image 20250918224333.png|500]]
@@ -49,8 +74,11 @@ This results in a [[NOOP]] [[#Bubble]] propogating down the pipeline. You can al
 * Hazards result in serialization, aka slowing down
 * The longer the pipeline, the larger the potential maximum hazard slowdown
 ## Structual Hazard
-Hardware limitations
+Structual hazards are caused by hardware limitations.
+For example, if BEQ branches, we have to use the ALU twice! If we only have one ALU in the datapath for EX, then all the insructions behind the BEQ in the pipeline have to wait for it, as it cycles twice in EX.
+
 ## Data Hazard
+When pipelining destroys the serial semantics of a program. 
 * Program limitations, mismatch between pipelining and serial external appearance of program
 * When pipelined (i.e. out of serial order) execution leads to semantic violations. The next instruction may clobber the information needed for intermediate calculations of the current instruction.
 ### Read After Write
@@ -70,7 +98,9 @@ Output dependency
 $I_{1}: R_{\color{red}\mathbf{1}} =R_{2}+R_{3}$
 $I_{2}: R_{\color{red}\mathbf{1}} =R_{4}+R_{5}$
 ## Control Hazard
-Program limitations, dealing with branches
+Changes to the control flow of a process, e.g. branching.
+
+"Branches cause disruption to the normal flow of control and are detrimental to pipelined processor performance"
 
 # Busy Bit
 * Each [[Register]] in the [[Register File]] gets a bit called the "Busy Bit". 
