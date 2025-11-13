@@ -15,181 +15,44 @@
               "state": {},
               "icon": "lucide-file",
               "title": "New tab"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "vertical"
-  },
-  "left": {
-    "id": "cc3ef4d060a86070",
-    "type": "split",
-    "children": [
-      {
-        "id": "31aae84846e86bb3",
+        "id": "a8750029f7babf4d",
         "type": "tabs",
         "children": [
           {
-            "id": "32e428eeb1c175c5",
+            "id": "bdd25b43f1c032ac",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
+              "type": "image",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
+                "file": "res/Pasted image 20251029122225.png"
               },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
-            }
-          },
-          {
-            "id": "16d4567fc37bf222",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
-          {
-            "id": "c7b223e8b47fb064",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 281.51103591918945,
-    "collapsed": true
-  },
-  "right": {
-    "id": "8631e8703029880f",
-    "type": "split",
-    "children": [
-      {
-        "id": "21f54ff8febdd705",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1c4a378dcca63edb",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Caching.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Caching"
-            }
-          },
-          {
-            "id": "00016c25592cce6f",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Jumptable.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Jumptable"
-            }
-          },
-          {
-            "id": "e4afd68d450eb5fa",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "40d989b60562bfc1",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Jumptable.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Jumptable"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
-  },
-  "left-ribbon": {
-    "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
-    }
-  },
-  "active": "a54df335605f6eab",
+              "icon": "lucide-image",
+              "title": "Pasted image 20251029122225"
+  "active": "32e428eeb1c175c5",
   "lastOpenFiles": [
-    "C++ Move Semantics.md",
-    "C++ Reference.md",
-    "Heap Allocation.md",
-    "C++ Multithreading.md",
-    "C++ Value Categories.md",
+    "Multithreading.md",
+    "Thread.md",
+    "res/Pasted image 20251101173608.png",
+    "res/Pasted image 20251101173000.png",
+    "res/Pasted image 20251101172429.png",
+    "res/Pasted image 20251101172024.png",
+    "res/Pasted image 20251101171937.png",
+    "res/Pasted image 20251101142054.png",
     "Memory Management.md",
-    "Locality.md",
     "Caching.md",
-    "Translation Lookaside Buffer.md",
-    "Frame Table.md",
     "Page Coloring.md",
-    "Segmented Virtual Memory.md",
-    "Paged Segmentation.md",
-    "Paging.md",
+>>>>>>> 678fb223bc4e2a1c74c12f9fa263d7957ac657d5
     "Memory.md",
     "Virtual Address.md",
     "Memory Pressure.md",
-    "Pasted image 20251029123702.png",
+    "res/Pasted image 20251029123702.png",
     "RAM.md",
+<<<<<<< HEAD
     "Pasted image 20251029122225.png",
+=======
+    "res/Pasted image 20251029122225.png",
+    "Paging.md",
+>>>>>>> 678fb223bc4e2a1c74c12f9fa263d7957ac657d5
     "res/Pasted image 20251028164139.png",
     "res]",
     "Condition Variable.md",
@@ -199,6 +62,7 @@
     "Critical Section.md",
     "Spinlock.md",
     "Mutex.md",
+<<<<<<< HEAD
     "Multithreading.md",
     "res/Pasted image 20251028164541.png",
     "res/Pasted image 20251028144353.png",
@@ -207,6 +71,17 @@
     "res/Pasted image 20251028155055.png",
     "res/Pasted image 20251028154708.png",
     "res/Pasted image 20251028152846.png",
+=======
+    "Race Condition.md",
+    "Data Race.md",
+    "C++ Multithreading.md",
+    "res/Pasted image 20251028164541.png",
+    "Condition Code.md",
+    "inode.md",
+    "Translation Lookaside Buffer.md",
+    "Interleaved Memory.md",
+    "Replacement Algorithm.md",
+>>>>>>> 678fb223bc4e2a1c74c12f9fa263d7957ac657d5
     "meta/cs2200",
     "meta",
     "TCP"
