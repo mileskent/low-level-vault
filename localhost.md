@@ -1,0 +1,2 @@
+`127.0.0.1` is the standard loopback [[IP|IP Address]], belonging to the loopback network (`127.0.0.0/8`) which is reserved for a [[Host]] to send [[Packet]]s to itself
+Allows a computer to talk to itself over [[IP]] without having to deal with external network configurations, like the dynamic address assignment of [[DHCP]]

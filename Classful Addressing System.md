@@ -1,0 +1,3 @@
+Classful addressing is an early method of organizing [[IP|IP Address]]es in the [[IP#IPv4]] system, dividing the address space into five classes (A, B, C, D, and E) based on the first few bits of the address. This system was used from 1981 until it was largely replaced by [[Classless Inter-Domain Routing]] (CIDR) in 1993 due to inefficiencies and limitations in address allocation.
+Each class has a fixed network size, i.e. fixed [[Subnet#Subnet Mask]] size.
+In this system, there was a lot of waste. If you needed a [[Network]] with 300 hosts, you could not be given a Class C (/24 -> 256 host) address range. Instead you would have to be given a Class B (/16 -> 65536 host) address range.

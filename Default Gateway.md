@@ -1,0 +1,2 @@
+A default gateway is a [[Networking Device]], usually a [[Router]], that forwards data from a local [[Network]] to other networks when no specific route is available. It acts as the access point for devices to communicate with external networks, such as the [[Internet]].
+Default Gateway's [[Routing Table]] entry destination [[Prefix]] is `0.0.0.0 /0` so that it acts as default.

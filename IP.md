@@ -41,6 +41,10 @@ The network part is leading part of the IP, and what you get from [[AND]]ing wit
 # IPv6
 #todo
 
+# Public IP
+Public IP addresses are unique identifiers assigned by an [[Service Provider|ISP]] that allows devices to communicate over the [[Internet]]
+# Private IP
+Private IP address are unique identifiers assigned by a local network for communication within a local network.
 # Composition
 ## Unicast
 A unicast address is a logical identifier representing a single network device. A unicast transmission sends IP packet data to a single destination.  

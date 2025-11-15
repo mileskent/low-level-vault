@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "292a25775313eeb6",
+        "id": "3118961cbcc94508",
         "type": "tabs",
         "children": [
           {
-            "id": "119bf14284d2a4f1",
+            "id": "02b85ac41af4fb0b",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "res/Pasted image 20251113133326.png"
+                "file": "res/Pasted image 20251115140116.png"
               },
               "icon": "lucide-image",
-              "title": "Pasted image 20251113133326"
+              "title": "Pasted image 20251115140116"
             }
           }
         ]
@@ -170,41 +170,41 @@
   },
   "active": "cfffa2099d3f85b3",
   "lastOpenFiles": [
-    "Network.md",
+    "Network Address Translation.md",
     "IP.md",
-    "Subnet.md",
-    "AND.md",
-    "AND Gate.md",
-    "Payload.md",
-    "Open Systems Interconnection Model.md",
+    "Service Provider.md",
+    "Firewall.md",
+    "Whitelist.md",
+    "Blacklist.md",
+    "C Variadic Function.md",
+    "C++ Smart Pointer.md",
+    "Port.md",
     "Transmission Control Protocol.md",
-    "Encapsulation.md",
+    "res/Pasted image 20251115141119.png",
+    "res/Pasted image 20251115140116.png",
+    "Routing Table.md",
+    "route.md",
+    "Ethernet.md",
+    "Routing Protocol.md",
+    "Default Gateway.md",
+    "DHCP.md",
+    "localhost.md",
+    "Classless Inter-Domain Routing.md",
+    "Prefix.md",
+    "Classful Addressing System.md",
+    "Hop.md",
+    "Router.md",
+    "netstat.md",
+    "Switch.md",
+    "swithc.md",
+    "Subnet.md",
+    "res/Pasted image 20251113133326.png",
     "res/Pasted image 20251113141423.png",
-    "Protocol Data Unit.md",
-    "SSH.md",
     "res/Pasted image 20251113140827.png",
     "res/Pasted image 20251113140823.png",
     "res/Pasted image 20251113140820.png",
-    "Packet.md",
     "res/Pasted image 20251113140633.png",
-    "User Datagram Protocol.md",
-    "TCP.md",
-    "Sliding Window Protocol.md",
     "res/Pasted image 20251113135515.png",
-    "Stop and Wait Protocol.md",
-    "Protocol Stack.md",
-    "Checksum.md",
-    "Go Back N.md",
-    "Bitrot.md",
-    "res/Pasted image 20251113134751.png",
-    "res/Pasted image 20251113134619.png",
-    "res/Pasted image 20251113134525.png",
-    "Packet Switched Network.md",
-    "res/Pasted image 20251113133717.png",
-    "Department of Defense Model.md",
-    "Port.md",
-    "Twisted Pair Cable.md",
-    "Multiplexing.md",
-    "Wavelength Division Multiplexing.md"
+    "res/Pasted image 20251113134751.png"
   ]
 }

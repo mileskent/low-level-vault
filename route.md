@@ -1,0 +1,1 @@
+A command to insert a static route into the [[Routing Table]]
