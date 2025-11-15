@@ -1,0 +1,1 @@
+ALl the [[Network Interface Card|NIC]]s that share a physical [[Ethernet]] (only one can transmit at a time)

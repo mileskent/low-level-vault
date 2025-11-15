@@ -39,8 +39,14 @@ The network part is leading part of the IP, and what you get from [[AND]]ing wit
 192.168.0.0 To 192.168.255.255
 
 # IPv6
-#todo
-
+Fixed length, 40 byte header
+No fragmentation allowed
+No [[#Broadcast]], only [[#Multicast]]
+128 bit address. Network part is always the first 64 bits.
+[[Neighbor Discover Protocol]] replaces [[Address Resolution Protocol]]
+[[Network Address Translation|NAT]] is discourraged, but local addresses are available: fc00::/7
+Every interface must have a link-local address fe80::/10
+Impractical to scan for hosts
 # Public IP
 Public IP addresses are unique identifiers assigned by an [[Service Provider|ISP]] that allows devices to communicate over the [[Internet]]
 # Private IP
