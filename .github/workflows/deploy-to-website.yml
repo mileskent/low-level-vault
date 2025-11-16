@@ -18,7 +18,7 @@ jobs:
         uses: konstfish/quartz-build-action@v6
         with:
           source: ./
-          page_title: "Low Level Vault"
+          page_title: "Low Level Notes"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
   deploy:
