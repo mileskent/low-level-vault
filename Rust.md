@@ -1,0 +1,1 @@
+Rust is a general-purpose programming language known for its focus on performance, memory safety, and concurrency. It combines low-level control with high-level ergonomics. A notable feature it has is [[Ownership]] and [[Borrowing]]. 

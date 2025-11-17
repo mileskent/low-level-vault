@@ -1,0 +1,1 @@
+Haskell is a general-purpose, statically typed, purely functional programming language known for its strong type system and lazy evaluation. It is designed to handle symbolic computation and is particularly valued for its ability to create maintainable and reliable software.
