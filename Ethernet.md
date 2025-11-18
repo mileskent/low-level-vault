@@ -14,6 +14,8 @@ If you hear a frame on the cable:
 * Drop it if you see a collision during its receipt or its CRC doesn't match
 [[Packet]] is in the [[Payload]] here.
 
+![[Manchester Encoding]]
+
 # Ethernet Bridging Algorithm
 ![[Pasted image 20251115161924.png|400]]
 * If the destination MAC is in the bridge table

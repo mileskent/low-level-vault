@@ -1,3 +1,8 @@
+---
+aliases:
+  - Recursive
+---
+
 Recursive calls go onto the Call [[Stack]] and are popped off when the base case is reached.
 
 Code before recusive call: before recursive stack, while going through

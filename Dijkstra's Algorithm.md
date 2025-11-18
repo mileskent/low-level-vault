@@ -61,3 +61,7 @@ Dijkstras(start: Vertex) {
 	return DM
 }
 ```
+
+
+# See Also
+[[Link-State Algorithm]]
