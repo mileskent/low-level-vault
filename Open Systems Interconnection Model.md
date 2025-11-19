@@ -36,11 +36,11 @@ A lower-level layer (2) where data is transmitted to the recipient [[Network Nod
 A layer 2 device typically serves as a central node providing connectivity to multiple [[Network|networked]] devices.
 Common layer 2 devices: [[Bridge]], [[Switch]], [[WAP]], [[Network Interface Card|NIC]]
 ## Frame
-the [[Protocol Data Unit|PDU]] created by layer 2 containing data transmission parameters and [[MAC Address|Physical Address]]. Two sublayers are used to construct a frame: [[Logical Link Control]] & [[Medium Access Control|MAC]]. A frame needs to know how to reach the recipient node because not every node is directly connected.
+the [[Protocol Data Unit|PDU]] created by layer 2 containing data transmission parameters and [[MAC Address|Physical Address]]. Two sublayers are used to construct a frame: [[Logical Link Control]] & [[Medium Access Control Layer|MAC]]. A frame needs to know how to reach the recipient node because not every node is directly connected.
 ## LLC
 ![[Logical Link Control]]
 ## MAC
-![[Medium Access Control|MAC]]
+![[Medium Access Control Layer|MAC]]
 
 # Physical Layer
 where a [[Payload]] is transmitted across a network medium (networking devices)

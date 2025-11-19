@@ -8,7 +8,7 @@ To send a frame:
 * Wait until no one using cable (carrier sense)
 * Assert carrier signal on the cable
 * Broadcast the frame to all stations on the cable
-* Retransmit after requeuing if there is collision (if someone else raises carrier signal during your transmission)
+* Retransmit after requeuing if there is [[Collision]] (if someone else raises carrier signal during your transmission)
 If you hear a frame on the cable:
 * Accept it if the destination [[MAC Address]] belongs to us, or if it has a broadcast or multicase destination MAC
 * Drop it if you see a collision during its receipt or its CRC doesn't match
