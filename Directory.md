@@ -1,0 +1,1 @@
+A container of [[File]]s; a table of [[inode]]-filename pairs
