@@ -1,3 +1,8 @@
+---
+aliases:
+  - Network Performance
+---
+
 ![[Pasted image 20251118170700.png|400]]
 Let $S$ be the time for data to make its way the sender's [[Protocol Stack]]
 * In modern times, often negligible
