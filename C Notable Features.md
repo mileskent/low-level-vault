@@ -11,7 +11,7 @@
 	* If you actually want to mutate your parameters, you have to pass a pointer to the variable (i.e. pass by reference), as even if the value of the pointer on the stack is a copy, it is still a pointer, and thus you can dereference and mutate the actual value of the variable that it points to.
 * Does not have printing, I/O, or (dynamic/heap) memory management built in
 * Function Prototypes and Function Definitions
-* Compiled by [[GCC]]
+* Compiled by [[gcc]]
 * There are source code files and header files. Source code files are usually .c and header files are usually .h
 	* Source code files
 		* definitions (allocation of storage)

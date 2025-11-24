@@ -1,6 +1,6 @@
 The basic operation of Make is to find the name of a  needed target in the description, ensure that all of the  files on which it depends exist and are up to date, and  then create the target if it has not been modified since  its generators were. The description file really defines  the graph of dependencies; Make does a depth-first search of this graph to determine what work is really necessary.
 
-Use a file called a "Makefile" that contains dependency information, rule for re-crearting target files, including calling [[GCC]]
+Use a file called a "Makefile" that contains dependency information, rule for re-crearting target files, including calling [[gcc]]
 
 ### Example
 You have a program named ksf. It is compiled and  
@@ -29,4 +29,4 @@ gcc –c $(CFLAGS) ksf_db.c
 
 ### See also
 [[C]]
-[[GCC]]
+[[gcc]]

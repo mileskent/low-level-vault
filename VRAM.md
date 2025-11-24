@@ -1,0 +1,1 @@
+[[RAM]] but on-chip for a [[GPU]]

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ca099c546fcb1f67",
+        "id": "16bba7373b5b358d",
         "type": "tabs",
         "children": [
           {
-            "id": "54134ad12b8c8a9e",
+            "id": "a929bc369d462a8c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Open Systems Interconnection Model.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Open Systems Interconnection Model"
+              "title": "New tab"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "collision",
+                "query": "coel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,13 +70,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d85eba47cb720b66",
@@ -171,12 +165,31 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "54134ad12b8c8a9e",
+  "active": "a929bc369d462a8c",
   "lastOpenFiles": [
+    "res/Pasted image 20251118165341.png",
+    "CUDA.md",
+    "Core.md",
+    "nvcc.md",
+    "PTX.md",
+    "clang.md",
+    "gcc.md",
+    "Video Memory.md",
+    "VRAM.md",
+    "GPU.md",
+    "res/Pasted image 20251123212853.png",
+    "CPU.md",
+    "res/Pasted image 20251123212821.png",
+    "Processor.md",
+    "res/Pasted image 20251123212715.png",
+    "res/Pasted image 20251123212659.png",
+    "GPGPU.md",
+    "Parition Managment.md",
+    "Checksum.md",
+    "Open Systems Interconnection Model.md",
     "CSMA.md",
     "Wireless Local Area Network.md",
     "Medium Access Control Layer.md",
-    "Untitled.md",
     "Network Medium.md",
     "Network Performance Metric.md",
     "Collision.md",
@@ -184,30 +197,11 @@
     "blkw.md",
     "Collision Domain.md",
     "x86.md",
-    "route.md",
     "res/subsequence_grid-2270750513.gif",
     "res/Pasted image 20251115161924.png",
     "res/Pasted image 20251115160909.png",
     "res/Pasted image 20251115155005.png",
     "res/Pasted image 20251115153237.png",
-    "res/Pasted image 20251115152130.png",
-    "res/Pasted image 20251115141119.png",
-    "res/Pasted image 20251115140116.png",
-    "res/Pasted image 20251113141423.png",
-    "res/Pasted image 20251113140827.png",
-    "netstat.md",
-    "localhost.md",
-    "index.md",
-    "XOR.md",
-    "Wireless LAN Controller.md",
-    "Wide Area Network.md",
-    "Whitelist.md",
-    "Weight.md",
-    "Wavelength Division Multiplexing.md",
-    "Walk.md",
-    "WAP.md",
-    "Voice over IP.md",
-    "Voice Gateway.md",
-    "Virtual Private Network.md"
+    "res/Pasted image 20251115152130.png"
   ]
 }
