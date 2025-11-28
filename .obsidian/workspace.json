@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d04137eeb43e228b",
+        "id": "3c244faad62ecaa1",
         "type": "tabs",
         "children": [
           {
-            "id": "9eaf383402d64f8a",
+            "id": "c79d3e4185d75ee1",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Memory Mapped",
+                "query": "space",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Open Systems Interconnection Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Open Systems Interconnection Model"
+              "title": "Backlinks"
             }
           },
           {
@@ -149,8 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,42 +163,43 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "20ed3a17ca7e56db",
+  "active": "c79d3e4185d75ee1",
   "lastOpenFiles": [
+    "res/Pasted image 20251008143728.png",
+    "res/Pasted image 20251128110338.png",
+    "Journaling.md",
+    "Filesystem.md",
+    "Directory.md",
+    "UNIX.md",
+    "File.md",
+    "Symlink.md",
+    "Hard Link.md",
+    "inode.md",
+    "res/Pasted image 20251128113056.png",
+    "res/Pasted image 20251128111725.png",
+    "res/Pasted image 20251128111344.png",
+    "Disk Block.md",
+    "Array.md",
+    "Hard Disk Drive.md",
+    "Freelist.md",
+    "Storage.md",
+    "Big O.md",
+    "Auxiliary Space Complexity.md",
+    "Space.md",
+    "ArrayList.md",
+    "ARM.md",
+    "Fragmentation.md",
+    "Memory.md",
+    "res/Pasted image 20251127220102.png",
     "Solid-State Drive.md",
     "res/Pasted image 20251128000421.png",
     "Garbage Collector.md",
     "res/Pasted image 20251127235546.png",
-    "Hard Disk Drive.md",
     "SAS.md",
     "SATA.md",
     "PCIe.md",
-    "Disk Scheduling.md",
     "res/Pasted image 20251127234620.png",
     "res/Pasted image 20251127234514.png",
-    "res/Pasted image 20251127234441.png",
-    "res/Pasted image 20251127234206.png",
-    "res/Pasted image 20251127233301.png",
-    "res/Pasted image 20251127233120.png",
-    "res/Pasted image 20251127223556.png",
-    "Binary Search Tree.md",
-    "BST.md",
-    "res/Pasted image 20251127221626.png",
-    "Device IO.md",
-    "C IO.md",
-    "Storage.md",
-    "Programmed IO.md",
-    "DMA.md",
-    "Driver.md",
-    "Interrupt Driven IO.md",
-    "Input Device.md",
-    "Discontinuities.md",
-    "Filesystem.md",
-    "CUDA.md",
-    "Core.md",
-    "nvcc.md",
-    "PTX.md",
-    "clang.md",
-    "gcc.md"
+    "res/Pasted image 20251127234441.png"
   ]
 }

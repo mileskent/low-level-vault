@@ -14,8 +14,9 @@ Each platter has two surfaces: the top and bottom face. Both faces can be used f
 # Track
 Each [[#Surface]] has a track, which is a path that the [[#Read/Write Head]] can follow. It is like a ridge in a record. 
 # Sector
-[[#Track]]s are subdivided into sectors.
-
+[[#Track]]s are subdivided into sectors. Sectors are the smallest physical unit of storage.
+# Block
+![[Disk Block]]
 # Cylinder
 A conceptual grouping of [[#Track]]s that are all the same distance from the center of the [[#Platter]]. There are as many cylinders as there are tracks.
 ![[Pasted image 20251127221626.png|200]]

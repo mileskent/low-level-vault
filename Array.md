@@ -1,1 +1,1 @@
-A contiguous block in memory, holding many elements.
+A contiguous block in memory; a list of elements.
