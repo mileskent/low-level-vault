@@ -1,4 +1,8 @@
-"BST"
+---
+aliases:
+  - BST
+---
+
 A [[Binary Tree]] where left nodes are less than the parent and right nodes are greater than the parent
 
 ##### contains()
