@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3c244faad62ecaa1",
+        "id": "9f00fd8cd66d9ff3",
         "type": "tabs",
         "children": [
           {
-            "id": "c79d3e4185d75ee1",
+            "id": "83fdf18c99b8982b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "image",
+              "state": {
+                "file": "res/Pasted image 20251201202340.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20251201202340"
             }
           }
         ]
@@ -90,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CUDA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for CUDA"
             }
           },
           {
@@ -148,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,8 +167,10 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "c79d3e4185d75ee1",
+  "active": "20ed3a17ca7e56db",
   "lastOpenFiles": [
+    "CUDA.md",
+    "res/Pasted image 20251201202340.png",
     "res/Pasted image 20251008143728.png",
     "res/Pasted image 20251128110338.png",
     "Journaling.md",
@@ -198,8 +204,6 @@
     "SAS.md",
     "SATA.md",
     "PCIe.md",
-    "res/Pasted image 20251127234620.png",
-    "res/Pasted image 20251127234514.png",
-    "res/Pasted image 20251127234441.png"
+    "res/Pasted image 20251127234620.png"
   ]
 }

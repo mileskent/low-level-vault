@@ -31,7 +31,7 @@ The [[GPU]]; uses the on-chip [[VRAM]]
 * runs on GPU
 * is visible globally (global [[VRAM]])
 * must return void
-* uses <<>> syntax
+* uses `<<<gridDim, blockDim>>>` syntax
 
 `__device__`
 * runs on GPU
@@ -60,11 +60,12 @@ For CUDA, we have [[nvcc]]
 ![[nvcc]]
 
 # Hierarchy
-- `gridDim` ⇒ number of blocks in the grid
-- `blockIdx` ⇒ index of the block in the grid
-- `blockDim` ⇒ number of threads in a block
-- `threadIdx` ⇒ index of the thread in the block
+- `dim3 gridDim` ⇒ number of blocks per grid
+- `uint3 blockIdx` ⇒ index of the block in the grid
+- `dim3 blockDim` ⇒ number of threads per block
+- `uint3 threadIdx` ⇒ index of the thread in the block
 You can have this hierarchy in 3 dimensions
+![[Pasted image 20251201202340.png|300]]
 ## Thread
 A thread is the smallest execution unit
 * Each thread executes the same kernel code but oeprates on a different part/index of the data
