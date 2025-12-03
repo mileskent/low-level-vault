@@ -11,10 +11,14 @@
             "id": "9f227befea6e60fc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Disk Scheduling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Disk Scheduling"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "space",
+                "query": "SCAN",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Disk Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Disk Scheduling"
             }
           },
           {
@@ -165,6 +171,7 @@
   },
   "active": "9f227befea6e60fc",
   "lastOpenFiles": [
+    "Hard Disk Drive.md",
     "Superscalar Pipeline.md",
     "A*.md",
     "Filesystem.md",
@@ -191,7 +198,6 @@
     "res/Pasted image 20251128111344.png",
     "Disk Block.md",
     "Array.md",
-    "Hard Disk Drive.md",
     "Freelist.md",
     "Storage.md",
     "Big O.md",
