@@ -85,3 +85,5 @@ The bigger the file, the slower the access.
 
 # Filesystem Integrity
 ![[Journaling]]
+
+![[Copy-on-Write#Filesystem Copy-on-Write]]

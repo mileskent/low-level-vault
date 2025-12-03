@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9f00fd8cd66d9ff3",
+        "id": "dcd6a54b9aeb5b8c",
         "type": "tabs",
         "children": [
           {
-            "id": "83fdf18c99b8982b",
+            "id": "9f227befea6e60fc",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "res/Pasted image 20251201202340.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251201202340"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -92,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CUDA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CUDA"
+              "title": "Backlinks"
             }
           },
           {
@@ -151,8 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,14 +163,23 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "20ed3a17ca7e56db",
+  "active": "9f227befea6e60fc",
   "lastOpenFiles": [
-    "CUDA.md",
+    "Superscalar Pipeline.md",
+    "A*.md",
+    "Filesystem.md",
+    "Copy-on-Write.md",
+    "Untitled.md",
+    "Journaling.md",
+    "Boyer-Moore.md",
+    "Pattern Matching Algorithm.md",
+    "Rabin-Karp.md",
+    "Switch.md",
+    "Router.md",
     "res/Pasted image 20251201202340.png",
+    "CUDA.md",
     "res/Pasted image 20251008143728.png",
     "res/Pasted image 20251128110338.png",
-    "Journaling.md",
-    "Filesystem.md",
     "Directory.md",
     "UNIX.md",
     "File.md",
@@ -192,18 +197,9 @@
     "Big O.md",
     "Auxiliary Space Complexity.md",
     "Space.md",
-    "ArrayList.md",
-    "ARM.md",
-    "Fragmentation.md",
-    "Memory.md",
     "res/Pasted image 20251127220102.png",
-    "Solid-State Drive.md",
     "res/Pasted image 20251128000421.png",
-    "Garbage Collector.md",
     "res/Pasted image 20251127235546.png",
-    "SAS.md",
-    "SATA.md",
-    "PCIe.md",
     "res/Pasted image 20251127234620.png"
   ]
 }
