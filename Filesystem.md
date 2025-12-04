@@ -68,7 +68,7 @@ You can have as many levels of indirection, such that you have a sufficient abil
 The issue is that there is a lot of overhead going on. By having a system that enables you to have really big files, when you use normal size files, you have a bunch of [[Fragmentation#Internal Fragmentation]] going on.
 ![[Pasted image 20251128111344.png|400]]
 ### Hybrid Indexed Allocation
-Multilevel Indexed Allocation, but there are multiple indirection levels that all coexist. The bigger the file, the bigger the indirection you use.
+Multilevel Indexed Allocation, but there are multiple indirection levels that all coexist. The bigger the file, the bigger the indirection you use. Fill up the pointers least indirection to most indirection, for this reason.
 The bigger the file, the slower the access.
 * Growth: ✅
 	* The multilevel hybrid model fixes the growth issues associated with the basic indexed allocation
