@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "6cb29ac8b5669661",
+        "id": "afd2164feb4528aa",
         "type": "tabs",
         "children": [
           {
-            "id": "472f0319a6a0e273",
+            "id": "85cc64757e978cbb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Filesystem.md",
+                "file": "Spurious Wakeup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Filesystem"
+              "title": "Spurious Wakeup"
+            }
+          },
+          {
+            "id": "8be34df58f721be6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Symmetric Multiprocessing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Symmetric Multiprocessing"
             }
           }
         ]
@@ -53,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Indexed Allocation",
+                "query": "shootdown",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Filesystem.md",
+                "file": "Spurious Wakeup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Filesystem"
+              "title": "Backlinks for Spurious Wakeup"
             }
           },
           {
@@ -169,17 +183,25 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "472f0319a6a0e273",
+  "active": "85cc64757e978cbb",
   "lastOpenFiles": [
+    "Symmetric Multiprocessing.md",
+    "Spurious Wakeup.md",
+    "Race Condition.md",
+    "Mutex.md",
+    "Filesystem.md",
+    "Disk Scheduling.md",
+    "Hard Disk Drive.md",
+    "Sliding Window Protocol.md",
+    "Storage.md",
+    "Network Performance Metric.md",
+    "Go Back N.md",
     "File.md",
     "Symlink.md",
     "Hard Link.md",
-    "Disk Scheduling.md",
     "chmod.md",
-    "Hard Disk Drive.md",
     "Superscalar Pipeline.md",
     "A*.md",
-    "Filesystem.md",
     "Copy-on-Write.md",
     "Journaling.md",
     "Boyer-Moore.md",
@@ -192,17 +214,9 @@
     "res/Pasted image 20251008143728.png",
     "res/Pasted image 20251128110338.png",
     "Directory.md",
-    "UNIX.md",
-    "inode.md",
     "res/Pasted image 20251128113056.png",
     "res/Pasted image 20251128111725.png",
     "res/Pasted image 20251128111344.png",
-    "Disk Block.md",
-    "Array.md",
-    "Freelist.md",
-    "Storage.md",
-    "Big O.md",
-    "Auxiliary Space Complexity.md",
     "res/Pasted image 20251127220102.png",
     "res/Pasted image 20251128000421.png",
     "res/Pasted image 20251127235546.png",

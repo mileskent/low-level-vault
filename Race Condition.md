@@ -1,1 +1,1 @@
-A flaw that occurs in the timing or the ordering of events that leads to erroneous program behavior.
+An issue that occurs in multithreading with improper usage of synchronization primitives where multiple threads “race” such that whichever “finishes” first results in a different outcome. The “race” is unpredictable, so sometimes one thread with “win” and sometimes another thread will “win”. The result is multithreaded code that has unpredictable behavior.

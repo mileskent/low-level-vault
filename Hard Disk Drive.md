@@ -37,10 +37,12 @@ $$
 Mnemonic: "[[Binary Search Tree|BST]]? No problem"
 
 # Transfer Metrics
-* Time for one revolution = $60/\text{RPM}$
-* Average Rotational Latency = $\frac{60 /\text{RPM}}{2}$
-* Amount of data read in one revolution = $s \cdot b$
-* Transfer rate = $(s \cdot b) /(60/\text{RPM}) = (s \cdot b \cdot\text{RPM}) /60$
+* Time for one revolution (read one track) = $60/\text{RPM}\quad\text{seconds per revolution}$
+* Time to read a sector $60 /(\text{RPM} \cdot s)\quad\text{seconds per sector}$
+* Average Rotational Latency = $\frac{60 /\text{RPM}}{2}\quad\text{seconds}$
+* Amount of data read in one revolution = $s \cdot b\quad\text{bytes}$
+* Transfer rate = $(s \cdot b) /(60/\text{RPM}) = (s \cdot b \cdot\text{RPM}) /60\quad\text{bytes per revolution}$
+* Time to find a random block = Seek Time + Average Rotational Latency + Time to read a sector
 
 # Zoned Bit Recording
 Maintain somewhat constant bit density per sector.
