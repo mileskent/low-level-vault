@@ -36,6 +36,12 @@ $$
 
 Mnemonic: "[[Binary Search Tree|BST]]? No problem"
 
+## ZBR Capacity
+For ZBR, the $st$ term from the above equation, which equals \# sectors, becomes:
+$$
+\sum_{z_{0}}^{z^n} s_{i} \cdot t_{i}
+$$
+This summation just says that we calculate $st$ for each zone, and then add them up to get the overall \# sectors
 # Transfer Metrics
 * Time for one revolution (read one track) = $60/\text{RPM}\quad\text{seconds per revolution}$
 * Time to read a sector $60 /(\text{RPM} \cdot s)\quad\text{seconds per sector}$
