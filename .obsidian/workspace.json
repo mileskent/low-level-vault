@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "02686b2a5d12b570",
+        "id": "5768c23df8556a23",
         "type": "tabs",
         "children": [
           {
-            "id": "7fcffeab603e251d",
+            "id": "cc3064d0205ab8b0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux Syscalls.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Linux Syscalls"
+              "title": "New tab"
             }
           }
         ]
@@ -170,10 +166,16 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "7fcffeab603e251d",
+  "active": "cc3064d0205ab8b0",
   "lastOpenFiles": [
-    "File Descriptor.md",
+    "glad.md",
+    "libdl.md",
+    "OpenGL.md",
+    "OpenGL Context.md",
+    "SDL.md",
+    "Framebuffer.md",
     "Linux Syscalls.md",
+    "File Descriptor.md",
     "glibc.md",
     "Linux Kernel.md",
     "Linux.md",
@@ -190,15 +192,9 @@
     "Pipeline.md",
     "Rendering.md",
     "Graphics.md",
-    "OpenGL.md",
     "res/Pasted image 20251214213250.png",
     "XOR.md",
     "Prim's Algorithm.md",
-    "Kruskal's Algorithm.md",
-    "Dekker's Algorithm.md",
-    "Peterson's Algorithm.md",
-    "Hard Disk Drive.md",
-    "Network Performance Metric.md",
     "res/Pasted image 20251201202340.png",
     "res/Pasted image 20251008143728.png",
     "res/Pasted image 20251128110338.png",
