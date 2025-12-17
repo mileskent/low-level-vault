@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0fb728053a2f7902",
+        "id": "3a63e4f23ddc37a0",
         "type": "tabs",
         "children": [
           {
-            "id": "200e68bbdf89bfcb",
+            "id": "8a6730e3e95e54ab",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vertex Buffer Object.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Vertex Buffer Object"
+              "title": "New tab"
             }
           }
         ]
@@ -95,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL Rendering Pipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OpenGL Rendering Pipeline"
+              "title": "Backlinks"
             }
           },
           {
@@ -170,12 +165,23 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "200e68bbdf89bfcb",
+  "active": "8a6730e3e95e54ab",
   "lastOpenFiles": [
+    "Texture.md",
+    "UV.md",
+    "Shader.md",
+    "Fragment Shader.md",
+    "OpenGL.md",
+    "Pasted image 20251216190813.png",
+    "GLSL.md",
+    "Pasted image 20251216190654.png",
+    "OpenGL Rendering Pipeline.md",
+    "Pasted image 20251216190632.png",
+    "Vertex Shader.md",
+    "Rendering Pipeline.md",
     "Vertex Buffer Object.md",
     "Vertex Array Object.md",
     "Rendering.md",
-    "OpenGL.md",
     "glad.md",
     "libdl.md",
     "OpenGL Context.md",
@@ -187,26 +193,15 @@
     "Linux Kernel.md",
     "Linux.md",
     "Linux Scheduler.md",
-    "OpenGL Rendering Pipeline.md",
     "Blending.md",
     "Depth Test.md",
     "Stencil Test.md",
-    "Scissor Test.md",
-    "Rasterization.md",
-    "Culling.md",
-    "Rendering Pipeline.md",
-    "Shader.md",
-    "Pipeline.md",
-    "Graphics.md",
     "res/Pasted image 20251214213250.png",
     "res/Pasted image 20251201202340.png",
     "res/Pasted image 20251008143728.png",
     "res/Pasted image 20251128110338.png",
     "res/Pasted image 20251128113056.png",
     "res/Pasted image 20251128111725.png",
-    "res/Pasted image 20251128111344.png",
-    "res/Pasted image 20251127220102.png",
-    "res/Pasted image 20251128000421.png",
-    "res/Pasted image 20251127235546.png"
+    "res/Pasted image 20251128111344.png"
   ]
 }
