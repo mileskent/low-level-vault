@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5768c23df8556a23",
+        "id": "0fb728053a2f7902",
         "type": "tabs",
         "children": [
           {
-            "id": "cc3064d0205ab8b0",
+            "id": "200e68bbdf89bfcb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Vertex Buffer Object.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Vertex Buffer Object"
             }
           }
         ]
@@ -166,11 +170,14 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "cc3064d0205ab8b0",
+  "active": "200e68bbdf89bfcb",
   "lastOpenFiles": [
+    "Vertex Buffer Object.md",
+    "Vertex Array Object.md",
+    "Rendering.md",
+    "OpenGL.md",
     "glad.md",
     "libdl.md",
-    "OpenGL.md",
     "OpenGL Context.md",
     "SDL.md",
     "Framebuffer.md",
@@ -190,11 +197,8 @@
     "Rendering Pipeline.md",
     "Shader.md",
     "Pipeline.md",
-    "Rendering.md",
     "Graphics.md",
     "res/Pasted image 20251214213250.png",
-    "XOR.md",
-    "Prim's Algorithm.md",
     "res/Pasted image 20251201202340.png",
     "res/Pasted image 20251008143728.png",
     "res/Pasted image 20251128110338.png",
