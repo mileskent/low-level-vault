@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f57b7ab2173e2fee",
+        "id": "02686b2a5d12b570",
         "type": "tabs",
         "children": [
           {
-            "id": "8066323b5aea1099",
+            "id": "7fcffeab603e251d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OpenGL Rendering Pipeline.md",
+                "file": "Linux Syscalls.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OpenGL Rendering Pipeline"
+              "title": "Linux Syscalls"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d85eba47cb720b66",
@@ -169,8 +170,14 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "20ed3a17ca7e56db",
+  "active": "7fcffeab603e251d",
   "lastOpenFiles": [
+    "File Descriptor.md",
+    "Linux Syscalls.md",
+    "glibc.md",
+    "Linux Kernel.md",
+    "Linux.md",
+    "Linux Scheduler.md",
     "OpenGL Rendering Pipeline.md",
     "Blending.md",
     "Depth Test.md",
@@ -192,12 +199,6 @@
     "Peterson's Algorithm.md",
     "Hard Disk Drive.md",
     "Network Performance Metric.md",
-    "Deadlock.md",
-    "Physical Topology.md",
-    "Token Ring Network.md",
-    "Topology.md",
-    "Logical Topology.md",
-    "Symmetric Multiprocessing.md",
     "res/Pasted image 20251201202340.png",
     "res/Pasted image 20251008143728.png",
     "res/Pasted image 20251128110338.png",
