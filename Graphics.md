@@ -1,2 +1,0 @@
-# See Also
-[[Rendering]]

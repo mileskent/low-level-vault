@@ -4,5 +4,5 @@ aliases:
 ---
 # See Also
 * [[OpenGL Rendering Pipeline]]
-* [[Rendering]]
+* [[Computer Graphics]]
 * [[Pipeline]]

@@ -1,1 +1,1 @@
-An OpenGL Context is a [[Finite State Machine|State Machine]] that holds all the information needed for [[Rendering]] graphics using [[OpenGL]]. It must be made current on a [[Thread]] to perform rendering, and only one context can be active per thread at any time. 
+An OpenGL Context is a [[Finite State Machine|State Machine]] that holds all the information needed for [[Computer Graphics|Rendering]] graphics using [[OpenGL]]. It must be made current on a [[Thread]] to perform rendering, and only one context can be active per thread at any time. 

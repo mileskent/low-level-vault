@@ -1,0 +1,1 @@
+In [[Computer Graphics]], winding order refers to the sequence in which the vertices of a triangle, are defined. Viewing the front face of a triangle, this order is counter-clockwise. The orientation is kind of like right hand rule. The face direction is the vector, and the winding order is in the positive direction of rotation.

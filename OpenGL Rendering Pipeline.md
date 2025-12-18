@@ -1,4 +1,4 @@
-* A [[GPU]] [[Pipeline]] for [[Rendering]] [[Graphics]], a [[Rendering Pipeline]] (specifically for [[OpenGL]], see [here](https://wikis.khronos.org/opengl/Rendering_Pipeline_Overview)
+* A [[GPU]] [[Pipeline]] that renders Graphics, a [[Rendering Pipeline]] (specifically for [[OpenGL]], see [here](https://wikis.khronos.org/opengl/Rendering_Pipeline_Overview)
 * A vertex's journey from 3D space in a world to the 2D space of the screen
 ![[Pasted image 20251214213250.png|150]]
 > Rendering Pipeline FlowchartDiagram of the Rendering Pipeline. The blue boxes are programmable [[Shader]] stages.

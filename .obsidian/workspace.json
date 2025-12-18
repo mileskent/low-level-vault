@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b4d6399b82f92a51",
+        "id": "6dc2051fb4ee8383",
         "type": "tabs",
         "children": [
           {
-            "id": "6bc1d4789e6c7a0b",
+            "id": "683a6d62a75e7056",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "res/Pasted image 20251216190632.png"
+                "file": "Winding Order.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251216190632"
+              "icon": "lucide-file",
+              "title": "Winding Order"
             }
           }
         ]
@@ -76,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d85eba47cb720b66",
@@ -92,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenGL.md",
+                "file": "Winding Order.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OpenGL"
+              "title": "Backlinks for Winding Order"
             }
           },
           {
@@ -151,8 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,12 +169,19 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "20ed3a17ca7e56db",
+  "active": "683a6d62a75e7056",
   "lastOpenFiles": [
+    "OpenGL Rendering Pipeline.md",
+    "Computer Graphics.md",
+    "Winding Order.md",
+    "Rendering Pipeline.md",
     "OpenGL Context.md",
+    "Graphics.md",
+    "Vertex Array Object.md",
+    "Vertex Buffer Object.md",
+    "res/Pasted image 20251216190632.png",
     "Finite State Machine.md",
     "Framebuffer.md",
-    "Untitled.md",
     "OpenGL.md",
     "Linux.md",
     "Mesa.md",
@@ -185,20 +194,12 @@
     "res/Pasted image 20251216190813.png",
     "GLSL.md",
     "res/Pasted image 20251216190654.png",
-    "OpenGL Rendering Pipeline.md",
-    "res/Pasted image 20251216190632.png",
     "Vertex Shader.md",
-    "Rendering Pipeline.md",
-    "Vertex Buffer Object.md",
-    "Vertex Array Object.md",
-    "Rendering.md",
     "glad.md",
     "libdl.md",
     "SDL.md",
     "Linux Syscalls.md",
     "File Descriptor.md",
-    "glibc.md",
-    "Linux Kernel.md",
     "res/Pasted image 20251214213250.png",
     "res/Pasted image 20251201202340.png",
     "res/Pasted image 20251008143728.png",

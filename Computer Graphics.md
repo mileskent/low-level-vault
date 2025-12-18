@@ -1,3 +1,9 @@
+---
+aliases:
+  - Rendering
+  - Graphics
+---
+
 # Triangles
 * Triangles are generally used to represent geometry.
 * Triangle have the following properties
