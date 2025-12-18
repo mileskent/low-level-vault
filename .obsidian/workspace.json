@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3a63e4f23ddc37a0",
+        "id": "b4d6399b82f92a51",
         "type": "tabs",
         "children": [
           {
-            "id": "8a6730e3e95e54ab",
+            "id": "6bc1d4789e6c7a0b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "OpenGL.md",
-                "mode": "source",
-                "source": false
+                "file": "res/Pasted image 20251216190632.png"
               },
-              "icon": "lucide-file",
-              "title": "OpenGL"
+              "icon": "lucide-image",
+              "title": "Pasted image 20251216190632"
             }
           }
         ]
@@ -78,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d85eba47cb720b66",
@@ -170,19 +167,26 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "8a6730e3e95e54ab",
+  "active": "20ed3a17ca7e56db",
   "lastOpenFiles": [
-    "man.md",
+    "OpenGL Context.md",
+    "Finite State Machine.md",
+    "Framebuffer.md",
+    "Untitled.md",
     "OpenGL.md",
+    "Linux.md",
+    "Mesa.md",
+    "res/Pasted image 20251217181606.png",
+    "man.md",
     "Texture.md",
     "UV.md",
     "Shader.md",
     "Fragment Shader.md",
-    "Pasted image 20251216190813.png",
+    "res/Pasted image 20251216190813.png",
     "GLSL.md",
-    "Pasted image 20251216190654.png",
+    "res/Pasted image 20251216190654.png",
     "OpenGL Rendering Pipeline.md",
-    "Pasted image 20251216190632.png",
+    "res/Pasted image 20251216190632.png",
     "Vertex Shader.md",
     "Rendering Pipeline.md",
     "Vertex Buffer Object.md",
@@ -190,23 +194,16 @@
     "Rendering.md",
     "glad.md",
     "libdl.md",
-    "OpenGL Context.md",
     "SDL.md",
-    "Framebuffer.md",
     "Linux Syscalls.md",
     "File Descriptor.md",
     "glibc.md",
     "Linux Kernel.md",
-    "Linux.md",
-    "Linux Scheduler.md",
-    "Blending.md",
-    "Depth Test.md",
     "res/Pasted image 20251214213250.png",
     "res/Pasted image 20251201202340.png",
     "res/Pasted image 20251008143728.png",
     "res/Pasted image 20251128110338.png",
     "res/Pasted image 20251128113056.png",
-    "res/Pasted image 20251128111725.png",
-    "res/Pasted image 20251128111344.png"
+    "res/Pasted image 20251128111725.png"
   ]
 }
