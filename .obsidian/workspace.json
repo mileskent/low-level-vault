@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "69431f0d7f37ce7c",
+        "id": "39e6f4b2553dba12",
         "type": "tabs",
         "children": [
           {
-            "id": "540d5e8b9ae33a04",
+            "id": "b438ba4420eb54c5",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "res/Pasted image 20251220092815.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251220092815"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -76,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d85eba47cb720b66",
@@ -92,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Index Buffer Object.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Index Buffer Object"
+              "title": "Backlinks"
             }
           },
           {
@@ -167,8 +165,17 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "20ed3a17ca7e56db",
+  "active": "b438ba4420eb54c5",
   "lastOpenFiles": [
+    "GLM.md",
+    "Computer Graphics.md",
+    "Homogenous Coordinates.md",
+    "Untitled.md",
+    "Clip.md",
+    "Vulkan.md",
+    "Perspective Projection.md",
+    "Orthographic Projection.md",
+    "res/Pasted image 20251220092815.png",
     "Quaternion.md",
     "Euler Angles.md",
     "res/Pasted image 20251220104045.png",
@@ -176,9 +183,7 @@
     "res/Pasted image 20251220103916.png",
     "Index Buffer Object.md",
     "res/Pasted image 20251220093633.png",
-    "res/Pasted image 20251220092815.png",
     "Quad.md",
-    "Computer Graphics.md",
     "Triangle.md",
     "Mesh.md",
     "Vertex Buffer Object.md",
@@ -195,13 +200,7 @@
     "Linux.md",
     "Mesa.md",
     "res/Pasted image 20251217181606.png",
-    "man.md",
-    "Texture.md",
-    "UV.md",
-    "Shader.md",
-    "Fragment Shader.md",
     "res/Pasted image 20251216190813.png",
-    "GLSL.md",
     "res/Pasted image 20251216190654.png",
     "res/Pasted image 20251214213250.png"
   ]
