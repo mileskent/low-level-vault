@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "b4a7ce5ce33d4c63",
+        "id": "69431f0d7f37ce7c",
         "type": "tabs",
         "children": [
           {
-            "id": "7a138d1554a800a9",
+            "id": "540d5e8b9ae33a04",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Index Buffer Object.md",
-                "mode": "source",
-                "source": false
+                "file": "res/Pasted image 20251220092815.png"
               },
-              "icon": "lucide-file",
-              "title": "Index Buffer Object"
+              "icon": "lucide-image",
+              "title": "Pasted image 20251220092815"
             }
           }
         ]
@@ -78,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d85eba47cb720b66",
@@ -170,10 +167,16 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "7a138d1554a800a9",
+  "active": "20ed3a17ca7e56db",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Quaternion.md",
+    "Euler Angles.md",
+    "res/Pasted image 20251220104045.png",
+    "res/Pasted image 20251220103938.png",
+    "res/Pasted image 20251220103916.png",
     "Index Buffer Object.md",
+    "res/Pasted image 20251220093633.png",
+    "res/Pasted image 20251220092815.png",
     "Quad.md",
     "Computer Graphics.md",
     "Triangle.md",
@@ -200,13 +203,6 @@
     "res/Pasted image 20251216190813.png",
     "GLSL.md",
     "res/Pasted image 20251216190654.png",
-    "Vertex Shader.md",
-    "glad.md",
-    "res/Pasted image 20251214213250.png",
-    "res/Pasted image 20251201202340.png",
-    "res/Pasted image 20251008143728.png",
-    "res/Pasted image 20251128110338.png",
-    "res/Pasted image 20251128113056.png",
-    "res/Pasted image 20251128111725.png"
+    "res/Pasted image 20251214213250.png"
   ]
 }
